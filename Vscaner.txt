@@ -1,0 +1,2390 @@
+C:\Users\John\MyGameAid\Vscaner\Vscaner.exe
+
+Compiled to .NET Assembly
+
+Object: vscan.My.MyApplication
+Private Sub .cctor() Address: 592C50
+Private Function __ENCAddToList(value) Address: 592C60
+Private Function Main(Args) Address: 592D70
+Public Sub .ctor() Address: 592DAC
+Sub OnCreateMainForm() Address: 592DE0
+
+Object: vscan.My.MyComputer
+Public Sub .ctor() Address: 592DF8
+
+Object: vscan.My.MyProject
+Private Sub .cctor() Address: 592E04
+Private Property Get get_Computer() Address: 592E3C
+Private Property Get get_Application() Address: 592E58
+Private Property Get get_User() Address: 592E74
+Private Property Get get_Forms() Address: 592E90
+Private Property Get get_WebServices() Address: 592EAC
+
+Object: -.MyForms
+Public Property Get get_map() Address: 592EC8
+Public Property Get get_player() Address: 592EF0
+Public Property Get get_SystemInfoForm() Address: 592F18
+Public Property Get get_Vscaner() Address: 592F40
+Public Property Set set_map(Value) Address: 592F68
+Public Property Set set_player(Value) Address: 592FAC
+Public Property Set set_SystemInfoForm(Value) Address: 592FF0
+Public Property Set set_Vscaner(Value) Address: 593034
+Private Function Create__Instance__(Instance) Address: 593078
+Private Function Dispose__Instance__(instance) Address: 5931B4
+Public Sub .ctor() Address: 5931E0
+Public Function Equals(str_157) Address: 5931EC
+Public Sub GetHashCode() Address: 59320C
+Private Sub GetType() Address: 593224
+Public Sub ToString() Address: 593240
+
+Object: -.MyWebServices
+Public Function Equals(str_157) Address: 593258
+Public Sub GetHashCode() Address: 593278
+Private Sub GetType() Address: 593290
+Public Sub ToString() Address: 5932AC
+Private Function Create__Instance__(instance) Address: 5932C4
+Private Function Dispose__Instance__(instance) Address: 5932F0
+Public Sub .ctor() Address: 593310
+
+Object: -.ThreadSafeObjectProvider`1
+Private Property Get get_GetInstance() Address: 59331C
+Public Sub .ctor() Address: 593350
+
+Object: vscan.My.InternalXmlHelper
+Private Sub .ctor() Address: 566E88
+Public Property Get get_Value(source) Address: 566E94
+Public Property Set set_Value(source, value) Address: 566EF4
+Public Property Get get_AttributeValue(source, name) Address: 566F54
+Public Property Set set_AttributeValue(source, name, value) Address: 566FBC
+Public Property Get get_AttributeValue(source, name) Address: 56701C
+Public Property Set set_AttributeValue(source, name, value) Address: 56703C
+Public Function CreateAttribute(name, value) Address: 56704C
+Public Function CreateNamespaceAttribute(name, str_179) Address: 567078
+Public Function RemoveNamespaceAttributes(inScopePrefixes, inScopeNs, attributes, obj) Address: 5670A0
+Public Function RemoveNamespaceAttributes(inScopePrefixes, inScopeNs, attributes, obj) Address: 567100
+Public Function RemoveNamespaceAttributes(inScopePrefixes, inScopeNs, attributes, str_186) Address: 567174
+
+Object: -.RemoveNamespaceAttributesClosure
+Private Function .ctor(inScopePrefixes, inScopeNs, attributes) Address: 567318
+Private Function ProcessXElement(elem) Address: 567338
+Private Function ProcessObject(obj) Address: 567364
+
+Object: vscan.dbDataSet
+Private Sub .cctor() Address: 5673A8
+Private Function __ENCAddToList(value) Address: 5673B8
+Public Sub .ctor() Address: 5674C8
+Function .ctor(info, context) Address: 56752C
+Public Property Get get_alt() Address: 567A28
+Public Property Get get_cordin() Address: 567A40
+Public Property Get get_enemies() Address: 567A58
+Public Property Get get_field() Address: 567A70
+Public Property Get get_flats() Address: 567A88
+Public Property Get get_friends() Address: 567AA0
+Public Property Get get_hero() Address: 567AB8
+Public Property Get get_hunt() Address: 567AD0
+Public Property Get get_neutral() Address: 567AE8
+Public Property Get get_npc() Address: 567B00
+Public Property Get get_altcoord() Address: 567B18
+Public Property Get get_enemiescoord() Address: 567B30
+Public Property Get get_friendscoord() Address: 567B48
+Public Property Get get_hero_alliance() Address: 567B60
+Public Property Get get_neutralcoord() Address: 567B78
+Public Property Get get_SchemaSerializationMode() Address: 567B90
+Public Property Set set_SchemaSerializationMode(Value) Address: 567BA8
+Public Property Get get_Tables() Address: 567BB4
+Public Property Get get_Relations() Address: 567BCC
+Sub InitializeDerivedDataSet() Address: 567BE4
+Public Sub Clone() Address: 567C00
+Sub ShouldSerializeTables() Address: 567C34
+Sub ShouldSerializeRelations() Address: 567C48
+Function ReadXmlSerializable(reader) Address: 567C5C
+Sub GetSchemaSerializable() Address: 568088
+Private Sub InitVars() Address: 5680C4
+Private Function InitVars(initTable) Address: 5680D0
+Private Sub InitClass() Address: 568484
+Private Sub ShouldSerializealt() Address: 56867C
+Private Sub ShouldSerializecordin() Address: 568690
+Private Sub ShouldSerializeenemies() Address: 5686A4
+Private Sub ShouldSerializefield() Address: 5686B8
+Private Sub ShouldSerializeflats() Address: 5686CC
+Private Sub ShouldSerializefriends() Address: 5686E0
+Private Sub ShouldSerializehero() Address: 5686F4
+Private Sub ShouldSerializehunt() Address: 568708
+Private Sub ShouldSerializeneutral() Address: 56871C
+Private Sub ShouldSerializenpc() Address: 568730
+Private Sub ShouldSerializealtcoord() Address: 568744
+Private Sub ShouldSerializeenemiescoord() Address: 568758
+Private Sub ShouldSerializefriendscoord() Address: 56876C
+Private Sub ShouldSerializehero_alliance() Address: 568780
+Private Sub ShouldSerializeneutralcoord() Address: 568794
+Private Function SchemaChanged(sender, str_186) Address: 5687A8
+Public Function GetTypedDataSetSchema(str_275) Address: 5687CC
+
+Object: -.altRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.cordinRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.enemiesRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.fieldRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.flatsRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.friendsRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.heroRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.huntRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.neutralRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.npcRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.altcoordRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.enemiescoordRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.friendscoordRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.hero_allianceRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.neutralcoordRowChangeEventHandler
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(sender, str_186, DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Function Invoke(sender, str_186) Address: 400000
+
+Object: -.altDataTable
+Private Sub .cctor() Address: 568964
+Private Function __ENCAddToList(value) Address: 568974
+Public Sub .ctor() Address: 568A84
+Private Function .ctor(table) Address: 568AB8
+Function .ctor(info, context) Address: 568B8C
+Public Property Get get_idColumn() Address: 568BA8
+Public Property Get get_allianceColumn() Address: 568BC0
+Public Property Get get_playerColumn() Address: 568BD8
+Public Property Get get_xColumn() Address: 568BF0
+Public Property Get get_yColumn() Address: 568C08
+Public Property Get get_Count() Address: 568C20
+Public Property Get get_Item(index) Address: 568C40
+Public Function add_altRowChanging(obj) Address: 568C64
+Public Function remove_altRowChanging(obj) Address: 568C80
+Public Function add_altRowChanged(obj) Address: 568C9C
+Public Function remove_altRowChanged(obj) Address: 568CB8
+Public Function add_altRowDeleting(obj) Address: 568CD4
+Public Function remove_altRowDeleting(obj) Address: 568CF0
+Public Function add_altRowDeleted(obj) Address: 568D0C
+Public Function remove_altRowDeleted(obj) Address: 568D28
+Public Function AddaltRow(row) Address: 568D44
+Public Function AddaltRow(alliance, player, str_337, str_338) Address: 568D58
+Public Function FindByid(str_340) Address: 568DBC
+Public Sub Clone() Address: 568DF0
+Sub CreateInstance() Address: 568E18
+Private Sub InitVars() Address: 568E30
+Private Sub InitClass() Address: 568EB0
+Public Sub NewaltRow() Address: 569034
+Function NewRowFromBuilder(builder) Address: 569054
+Sub GetRowType() Address: 56906C
+Function OnRowChanged(str_186) Address: 569088
+Function OnRowChanging(str_186) Address: 5690E0
+Function OnRowDeleted(str_186) Address: 569138
+Function OnRowDeleting(str_186) Address: 569190
+Public Function RemovealtRow(row) Address: 5691E8
+Public Function GetTypedTableSchema(str_275) Address: 5691FC
+
+Object: -.cordinDataTable
+Private Sub .cctor() Address: 569470
+Private Function __ENCAddToList(value) Address: 569480
+Public Sub .ctor() Address: 569590
+Private Function .ctor(table) Address: 5695C4
+Function .ctor(info, context) Address: 569698
+Public Property Get get_allianceColumn() Address: 5696B4
+Public Property Get get_playerColumn() Address: 5696CC
+Public Property Get get_xColumn() Address: 5696E4
+Public Property Get get_yColumn() Address: 5696FC
+Public Property Get get_citieColumn() Address: 569714
+Public Property Get get_IDColumn() Address: 56972C
+Public Property Get get_Count() Address: 569744
+Public Property Get get_Item(index) Address: 569764
+Public Function add_cordinRowChanging(obj) Address: 569788
+Public Function remove_cordinRowChanging(obj) Address: 5697A4
+Public Function add_cordinRowChanged(obj) Address: 5697C0
+Public Function remove_cordinRowChanged(obj) Address: 5697DC
+Public Function add_cordinRowDeleting(obj) Address: 5697F8
+Public Function remove_cordinRowDeleting(obj) Address: 569814
+Public Function add_cordinRowDeleted(obj) Address: 569830
+Public Function remove_cordinRowDeleted(obj) Address: 56984C
+Public Function AddcordinRow(row) Address: 569868
+Public Function AddcordinRow(alliance, player, str_337, str_338, citie, str_384) Address: 56987C
+Public Function FindByID(str_384) Address: 5698EC
+Public Sub Clone() Address: 569920
+Sub CreateInstance() Address: 569948
+Private Sub InitVars() Address: 569960
+Private Sub InitClass() Address: 5699F4
+Public Sub NewcordinRow() Address: 569B90
+Function NewRowFromBuilder(builder) Address: 569BB0
+Sub GetRowType() Address: 569BC8
+Function OnRowChanged(str_186) Address: 569BE4
+Function OnRowChanging(str_186) Address: 569C3C
+Function OnRowDeleted(str_186) Address: 569C94
+Function OnRowDeleting(str_186) Address: 569CEC
+Public Function RemovecordinRow(row) Address: 569D44
+Public Function GetTypedTableSchema(str_275) Address: 569D58
+
+Object: -.enemiesDataTable
+Private Sub .cctor() Address: 569FCC
+Private Function __ENCAddToList(value) Address: 569FDC
+Public Sub .ctor() Address: 56A0EC
+Private Function .ctor(table) Address: 56A120
+Function .ctor(info, context) Address: 56A1F4
+Public Property Get get_idColumn() Address: 56A210
+Public Property Get get_allianceColumn() Address: 56A228
+Public Property Get get_playerColumn() Address: 56A240
+Public Property Get get_xColumn() Address: 56A258
+Public Property Get get_yColumn() Address: 56A270
+Public Property Get get_Count() Address: 56A288
+Public Property Get get_Item(index) Address: 56A2A8
+Public Function add_enemiesRowChanging(obj) Address: 56A2CC
+Public Function remove_enemiesRowChanging(obj) Address: 56A2E8
+Public Function add_enemiesRowChanged(obj) Address: 56A304
+Public Function remove_enemiesRowChanged(obj) Address: 56A320
+Public Function add_enemiesRowDeleting(obj) Address: 56A33C
+Public Function remove_enemiesRowDeleting(obj) Address: 56A358
+Public Function add_enemiesRowDeleted(obj) Address: 56A374
+Public Function remove_enemiesRowDeleted(obj) Address: 56A390
+Public Function AddenemiesRow(row) Address: 56A3AC
+Public Function AddenemiesRow(alliance, player, str_337, str_338) Address: 56A3C0
+Public Function FindByid(str_340) Address: 56A424
+Public Sub Clone() Address: 56A458
+Sub CreateInstance() Address: 56A480
+Private Sub InitVars() Address: 56A498
+Private Sub InitClass() Address: 56A518
+Public Sub NewenemiesRow() Address: 56A69C
+Function NewRowFromBuilder(builder) Address: 56A6BC
+Sub GetRowType() Address: 56A6D4
+Function OnRowChanged(str_186) Address: 56A6F0
+Function OnRowChanging(str_186) Address: 56A748
+Function OnRowDeleted(str_186) Address: 56A7A0
+Function OnRowDeleting(str_186) Address: 56A7F8
+Public Function RemoveenemiesRow(row) Address: 56A850
+Public Function GetTypedTableSchema(str_275) Address: 56A864
+
+Object: -.fieldDataTable
+Private Sub .cctor() Address: 56AAD8
+Private Function __ENCAddToList(value) Address: 56AAE8
+Public Sub .ctor() Address: 56ABF8
+Private Function .ctor(table) Address: 56AC2C
+Function .ctor(info, context) Address: 56AD00
+Public Property Get get_xColumn() Address: 56AD1C
+Public Property Get get_yColumn() Address: 56AD34
+Public Property Get get_levelColumn() Address: 56AD4C
+Public Property Get get_fieldColumn() Address: 56AD64
+Public Property Get get_IDColumn() Address: 56AD7C
+Public Property Get get_Count() Address: 56AD94
+Public Property Get get_Item(index) Address: 56ADB4
+Public Function add_fieldRowChanging(obj) Address: 56ADD8
+Public Function remove_fieldRowChanging(obj) Address: 56ADF4
+Public Function add_fieldRowChanged(obj) Address: 56AE10
+Public Function remove_fieldRowChanged(obj) Address: 56AE2C
+Public Function add_fieldRowDeleting(obj) Address: 56AE48
+Public Function remove_fieldRowDeleting(obj) Address: 56AE64
+Public Function add_fieldRowDeleted(obj) Address: 56AE80
+Public Function remove_fieldRowDeleted(obj) Address: 56AE9C
+Public Function AddfieldRow(row) Address: 56AEB8
+Public Function AddfieldRow(str_337, str_338, level, field) Address: 56AECC
+Public Function FindByID(str_384) Address: 56AF34
+Public Sub Clone() Address: 56AF68
+Sub CreateInstance() Address: 56AF90
+Private Sub InitVars() Address: 56AFA8
+Private Sub InitClass() Address: 56B028
+Public Sub NewfieldRow() Address: 56B19C
+Function NewRowFromBuilder(builder) Address: 56B1BC
+Sub GetRowType() Address: 56B1D4
+Function OnRowChanged(str_186) Address: 56B1F0
+Function OnRowChanging(str_186) Address: 56B248
+Function OnRowDeleted(str_186) Address: 56B2A0
+Function OnRowDeleting(str_186) Address: 56B2F8
+Public Function RemovefieldRow(row) Address: 56B350
+Public Function GetTypedTableSchema(str_275) Address: 56B364
+
+Object: -.flatsDataTable
+Private Sub .cctor() Address: 56B5D8
+Private Function __ENCAddToList(value) Address: 56B5E8
+Public Sub .ctor() Address: 56B6F8
+Private Function .ctor(table) Address: 56B72C
+Function .ctor(info, context) Address: 56B800
+Public Property Get get_xColumn() Address: 56B81C
+Public Property Get get_yColumn() Address: 56B834
+Public Property Get get_levelColumn() Address: 56B84C
+Public Property Get get_IDColumn() Address: 56B864
+Public Property Get get_Count() Address: 56B87C
+Public Property Get get_Item(index) Address: 56B89C
+Public Function add_flatsRowChanging(obj) Address: 56B8C0
+Public Function remove_flatsRowChanging(obj) Address: 56B8DC
+Public Function add_flatsRowChanged(obj) Address: 56B8F8
+Public Function remove_flatsRowChanged(obj) Address: 56B914
+Public Function add_flatsRowDeleting(obj) Address: 56B930
+Public Function remove_flatsRowDeleting(obj) Address: 56B94C
+Public Function add_flatsRowDeleted(obj) Address: 56B968
+Public Function remove_flatsRowDeleted(obj) Address: 56B984
+Public Function AddflatsRow(row) Address: 56B9A0
+Public Function AddflatsRow(str_337, str_338, level) Address: 56B9B4
+Public Function FindByID(str_384) Address: 56BA14
+Public Sub Clone() Address: 56BA48
+Sub CreateInstance() Address: 56BA70
+Private Sub InitVars() Address: 56BA88
+Private Sub InitClass() Address: 56BAF0
+Public Sub NewflatsRow() Address: 56BC24
+Function NewRowFromBuilder(builder) Address: 56BC44
+Sub GetRowType() Address: 56BC5C
+Function OnRowChanged(str_186) Address: 56BC78
+Function OnRowChanging(str_186) Address: 56BCD0
+Function OnRowDeleted(str_186) Address: 56BD28
+Function OnRowDeleting(str_186) Address: 56BD80
+Public Function RemoveflatsRow(row) Address: 56BDD8
+Public Function GetTypedTableSchema(str_275) Address: 56BDEC
+
+Object: -.friendsDataTable
+Private Sub .cctor() Address: 56C060
+Private Function __ENCAddToList(value) Address: 56C070
+Public Sub .ctor() Address: 56C180
+Private Function .ctor(table) Address: 56C1B4
+Function .ctor(info, context) Address: 56C288
+Public Property Get get_idColumn() Address: 56C2A4
+Public Property Get get_allianceColumn() Address: 56C2BC
+Public Property Get get_playerColumn() Address: 56C2D4
+Public Property Get get_xColumn() Address: 56C2EC
+Public Property Get get_yColumn() Address: 56C304
+Public Property Get get_Count() Address: 56C31C
+Public Property Get get_Item(index) Address: 56C33C
+Public Function add_friendsRowChanging(obj) Address: 56C360
+Public Function remove_friendsRowChanging(obj) Address: 56C37C
+Public Function add_friendsRowChanged(obj) Address: 56C398
+Public Function remove_friendsRowChanged(obj) Address: 56C3B4
+Public Function add_friendsRowDeleting(obj) Address: 56C3D0
+Public Function remove_friendsRowDeleting(obj) Address: 56C3EC
+Public Function add_friendsRowDeleted(obj) Address: 56C408
+Public Function remove_friendsRowDeleted(obj) Address: 56C424
+Public Function AddfriendsRow(row) Address: 56C440
+Public Function AddfriendsRow(alliance, player, str_337, str_338) Address: 56C454
+Public Function FindByid(str_340) Address: 56C4B8
+Public Sub Clone() Address: 56C4EC
+Sub CreateInstance() Address: 56C514
+Private Sub InitVars() Address: 56C52C
+Private Sub InitClass() Address: 56C5AC
+Public Sub NewfriendsRow() Address: 56C730
+Function NewRowFromBuilder(builder) Address: 56C750
+Sub GetRowType() Address: 56C768
+Function OnRowChanged(str_186) Address: 56C784
+Function OnRowChanging(str_186) Address: 56C7DC
+Function OnRowDeleted(str_186) Address: 56C834
+Function OnRowDeleting(str_186) Address: 56C88C
+Public Function RemovefriendsRow(row) Address: 56C8E4
+Public Function GetTypedTableSchema(str_275) Address: 56C8F8
+
+Object: -.heroDataTable
+Private Sub .cctor() Address: 56CB6C
+Private Function __ENCAddToList(value) Address: 56CB7C
+Public Sub .ctor() Address: 56CC8C
+Private Function .ctor(table) Address: 56CCC0
+Function .ctor(info, context) Address: 56CD94
+Public Property Get get_hero_nrColumn() Address: 56CDB0
+Public Property Get get_hero_nameColumn() Address: 56CDC8
+Public Property Get get_player_nameColumn() Address: 56CDE0
+Public Property Get get_levelColumn() Address: 56CDF8
+Public Property Get get_politColumn() Address: 56CE10
+Public Property Get get_attColumn() Address: 56CE28
+Public Property Get get_intelColumn() Address: 56CE40
+Public Property Get get_idColumn() Address: 56CE58
+Public Property Get get_Count() Address: 56CE70
+Public Property Get get_Item(index) Address: 56CE90
+Public Function add_heroRowChanging(obj) Address: 56CEB4
+Public Function remove_heroRowChanging(obj) Address: 56CED0
+Public Function add_heroRowChanged(obj) Address: 56CEEC
+Public Function remove_heroRowChanged(obj) Address: 56CF08
+Public Function add_heroRowDeleting(obj) Address: 56CF24
+Public Function remove_heroRowDeleting(obj) Address: 56CF40
+Public Function add_heroRowDeleted(obj) Address: 56CF5C
+Public Function remove_heroRowDeleted(obj) Address: 56CF78
+Public Function AddheroRow(row) Address: 56CF94
+Public Function AddheroRow(hero_nr, hero_name, player_name, level, polit, att, intel) Address: 56CFA8
+Public Function FindByid(str_340) Address: 56D02C
+Public Sub Clone() Address: 56D060
+Sub CreateInstance() Address: 56D088
+Private Sub InitVars() Address: 56D0A0
+Private Sub InitClass() Address: 56D160
+Public Sub NewheroRow() Address: 56D370
+Function NewRowFromBuilder(builder) Address: 56D390
+Sub GetRowType() Address: 56D3A8
+Function OnRowChanged(str_186) Address: 56D3C4
+Function OnRowChanging(str_186) Address: 56D41C
+Function OnRowDeleted(str_186) Address: 56D474
+Function OnRowDeleting(str_186) Address: 56D4CC
+Public Function RemoveheroRow(row) Address: 56D524
+Public Function GetTypedTableSchema(str_275) Address: 56D538
+
+Object: -.huntDataTable
+Private Sub .cctor() Address: 56D7AC
+Private Function __ENCAddToList(value) Address: 56D7BC
+Public Sub .ctor() Address: 56D8CC
+Private Function .ctor(table) Address: 56D900
+Function .ctor(info, context) Address: 56D9D4
+Public Property Get get_xColumn() Address: 56D9F0
+Public Property Get get_yColumn() Address: 56DA08
+Public Property Get get_playerColumn() Address: 56DA20
+Public Property Get get_IDColumn() Address: 56DA38
+Public Property Get get_Count() Address: 56DA50
+Public Property Get get_Item(index) Address: 56DA70
+Public Function add_huntRowChanging(obj) Address: 56DA94
+Public Function remove_huntRowChanging(obj) Address: 56DAB0
+Public Function add_huntRowChanged(obj) Address: 56DACC
+Public Function remove_huntRowChanged(obj) Address: 56DAE8
+Public Function add_huntRowDeleting(obj) Address: 56DB04
+Public Function remove_huntRowDeleting(obj) Address: 56DB20
+Public Function add_huntRowDeleted(obj) Address: 56DB3C
+Public Function remove_huntRowDeleted(obj) Address: 56DB58
+Public Function AddhuntRow(row) Address: 56DB74
+Public Function AddhuntRow(str_337, str_338, player) Address: 56DB88
+Public Function FindByID(str_384) Address: 56DBE4
+Public Sub Clone() Address: 56DC18
+Sub CreateInstance() Address: 56DC40
+Private Sub InitVars() Address: 56DC58
+Private Sub InitClass() Address: 56DCC0
+Public Sub NewhuntRow() Address: 56DE04
+Function NewRowFromBuilder(builder) Address: 56DE24
+Sub GetRowType() Address: 56DE3C
+Function OnRowChanged(str_186) Address: 56DE58
+Function OnRowChanging(str_186) Address: 56DEB0
+Function OnRowDeleted(str_186) Address: 56DF08
+Function OnRowDeleting(str_186) Address: 56DF60
+Public Function RemovehuntRow(row) Address: 56DFB8
+Public Function GetTypedTableSchema(str_275) Address: 56DFCC
+
+Object: -.neutralDataTable
+Private Sub .cctor() Address: 56E240
+Private Function __ENCAddToList(value) Address: 56E250
+Public Sub .ctor() Address: 56E360
+Private Function .ctor(table) Address: 56E394
+Function .ctor(info, context) Address: 56E468
+Public Property Get get_idColumn() Address: 56E484
+Public Property Get get_allianceColumn() Address: 56E49C
+Public Property Get get_playerColumn() Address: 56E4B4
+Public Property Get get_xColumn() Address: 56E4CC
+Public Property Get get_yColumn() Address: 56E4E4
+Public Property Get get_Count() Address: 56E4FC
+Public Property Get get_Item(index) Address: 56E51C
+Public Function add_neutralRowChanging(obj) Address: 56E540
+Public Function remove_neutralRowChanging(obj) Address: 56E55C
+Public Function add_neutralRowChanged(obj) Address: 56E578
+Public Function remove_neutralRowChanged(obj) Address: 56E594
+Public Function add_neutralRowDeleting(obj) Address: 56E5B0
+Public Function remove_neutralRowDeleting(obj) Address: 56E5CC
+Public Function add_neutralRowDeleted(obj) Address: 56E5E8
+Public Function remove_neutralRowDeleted(obj) Address: 56E604
+Public Function AddneutralRow(row) Address: 56E620
+Public Function AddneutralRow(alliance, player, str_337, str_338) Address: 56E634
+Public Function FindByid(str_340) Address: 56E698
+Public Sub Clone() Address: 56E6CC
+Sub CreateInstance() Address: 56E6F4
+Private Sub InitVars() Address: 56E70C
+Private Sub InitClass() Address: 56E78C
+Public Sub NewneutralRow() Address: 56E910
+Function NewRowFromBuilder(builder) Address: 56E930
+Sub GetRowType() Address: 56E948
+Function OnRowChanged(str_186) Address: 56E964
+Function OnRowChanging(str_186) Address: 56E9BC
+Function OnRowDeleted(str_186) Address: 56EA14
+Function OnRowDeleting(str_186) Address: 56EA6C
+Public Function RemoveneutralRow(row) Address: 56EAC4
+Public Function GetTypedTableSchema(str_275) Address: 56EAD8
+
+Object: -.npcDataTable
+Private Sub .cctor() Address: 56ED4C
+Private Function __ENCAddToList(value) Address: 56ED5C
+Public Sub .ctor() Address: 56EE6C
+Private Function .ctor(table) Address: 56EEA0
+Function .ctor(info, context) Address: 56EF74
+Public Property Get get_xColumn() Address: 56EF90
+Public Property Get get_yColumn() Address: 56EFA8
+Public Property Get get_levelColumn() Address: 56EFC0
+Public Property Get get_IDColumn() Address: 56EFD8
+Public Property Get get_Count() Address: 56EFF0
+Public Property Get get_Item(index) Address: 56F010
+Public Function add_npcRowChanging(obj) Address: 56F034
+Public Function remove_npcRowChanging(obj) Address: 56F050
+Public Function add_npcRowChanged(obj) Address: 56F06C
+Public Function remove_npcRowChanged(obj) Address: 56F088
+Public Function add_npcRowDeleting(obj) Address: 56F0A4
+Public Function remove_npcRowDeleting(obj) Address: 56F0C0
+Public Function add_npcRowDeleted(obj) Address: 56F0DC
+Public Function remove_npcRowDeleted(obj) Address: 56F0F8
+Public Function AddnpcRow(row) Address: 56F114
+Public Function AddnpcRow(str_337, str_338, level) Address: 56F128
+Public Function FindByID(str_384) Address: 56F188
+Public Sub Clone() Address: 56F1BC
+Sub CreateInstance() Address: 56F1E4
+Private Sub InitVars() Address: 56F1FC
+Private Sub InitClass() Address: 56F264
+Public Sub NewnpcRow() Address: 56F398
+Function NewRowFromBuilder(builder) Address: 56F3B8
+Sub GetRowType() Address: 56F3D0
+Function OnRowChanged(str_186) Address: 56F3EC
+Function OnRowChanging(str_186) Address: 56F444
+Function OnRowDeleted(str_186) Address: 56F49C
+Function OnRowDeleting(str_186) Address: 56F4F4
+Public Function RemovenpcRow(row) Address: 56F54C
+Public Function GetTypedTableSchema(str_275) Address: 56F560
+
+Object: -.altcoordDataTable
+Private Sub .cctor() Address: 56F7D4
+Private Function __ENCAddToList(value) Address: 56F7E4
+Public Sub .ctor() Address: 56F8F4
+Private Function .ctor(table) Address: 56F928
+Function .ctor(info, context) Address: 56F9FC
+Public Property Get get_idColumn() Address: 56FA18
+Public Property Get get_playerColumn() Address: 56FA30
+Public Property Get get_allianceColumn() Address: 56FA48
+Public Property Get get_xColumn() Address: 56FA60
+Public Property Get get_yColumn() Address: 56FA78
+Public Property Get get_citieColumn() Address: 56FA90
+Public Property Get get_Count() Address: 56FAA8
+Public Property Get get_Item(index) Address: 56FAC8
+Public Function add_altcoordRowChanging(obj) Address: 56FAEC
+Public Function remove_altcoordRowChanging(obj) Address: 56FB08
+Public Function add_altcoordRowChanged(obj) Address: 56FB24
+Public Function remove_altcoordRowChanged(obj) Address: 56FB40
+Public Function add_altcoordRowDeleting(obj) Address: 56FB5C
+Public Function remove_altcoordRowDeleting(obj) Address: 56FB78
+Public Function add_altcoordRowDeleted(obj) Address: 56FB94
+Public Function remove_altcoordRowDeleted(obj) Address: 56FBB0
+Public Function AddaltcoordRow(row) Address: 56FBCC
+Public Function AddaltcoordRow(player, alliance, str_337, str_338, citie) Address: 56FBE0
+Public Sub Clone() Address: 56FC48
+Sub CreateInstance() Address: 56FC70
+Private Sub InitVars() Address: 56FC88
+Private Sub InitClass() Address: 56FD1C
+Public Sub NewaltcoordRow() Address: 56FE9C
+Function NewRowFromBuilder(builder) Address: 56FEBC
+Sub GetRowType() Address: 56FED4
+Function OnRowChanged(str_186) Address: 56FEF0
+Function OnRowChanging(str_186) Address: 56FF48
+Function OnRowDeleted(str_186) Address: 56FFA0
+Function OnRowDeleting(str_186) Address: 56FFF8
+Public Function RemovealtcoordRow(row) Address: 570050
+Public Function GetTypedTableSchema(str_275) Address: 570064
+
+Object: -.enemiescoordDataTable
+Private Sub .cctor() Address: 5702D8
+Private Function __ENCAddToList(value) Address: 5702E8
+Public Sub .ctor() Address: 5703F8
+Private Function .ctor(table) Address: 57042C
+Function .ctor(info, context) Address: 570500
+Public Property Get get_idColumn() Address: 57051C
+Public Property Get get_allianceColumn() Address: 570534
+Public Property Get get_playerColumn() Address: 57054C
+Public Property Get get_xColumn() Address: 570564
+Public Property Get get_yColumn() Address: 57057C
+Public Property Get get_citieColumn() Address: 570594
+Public Property Get get_Count() Address: 5705AC
+Public Property Get get_Item(index) Address: 5705CC
+Public Function add_enemiescoordRowChanging(obj) Address: 5705F0
+Public Function remove_enemiescoordRowChanging(obj) Address: 57060C
+Public Function add_enemiescoordRowChanged(obj) Address: 570628
+Public Function remove_enemiescoordRowChanged(obj) Address: 570644
+Public Function add_enemiescoordRowDeleting(obj) Address: 570660
+Public Function remove_enemiescoordRowDeleting(obj) Address: 57067C
+Public Function add_enemiescoordRowDeleted(obj) Address: 570698
+Public Function remove_enemiescoordRowDeleted(obj) Address: 5706B4
+Public Function AddenemiescoordRow(row) Address: 5706D0
+Public Function AddenemiescoordRow(alliance, player, str_337, str_338, citie) Address: 5706E4
+Public Sub Clone() Address: 57074C
+Sub CreateInstance() Address: 570774
+Private Sub InitVars() Address: 57078C
+Private Sub InitClass() Address: 570820
+Public Sub NewenemiescoordRow() Address: 5709A0
+Function NewRowFromBuilder(builder) Address: 5709C0
+Sub GetRowType() Address: 5709D8
+Function OnRowChanged(str_186) Address: 5709F4
+Function OnRowChanging(str_186) Address: 570A4C
+Function OnRowDeleted(str_186) Address: 570AA4
+Function OnRowDeleting(str_186) Address: 570AFC
+Public Function RemoveenemiescoordRow(row) Address: 570B54
+Public Function GetTypedTableSchema(str_275) Address: 570B68
+
+Object: -.friendscoordDataTable
+Private Sub .cctor() Address: 570DDC
+Private Function __ENCAddToList(value) Address: 570DEC
+Public Sub .ctor() Address: 570EFC
+Private Function .ctor(table) Address: 570F30
+Function .ctor(info, context) Address: 571004
+Public Property Get get_idColumn() Address: 571020
+Public Property Get get_allianceColumn() Address: 571038
+Public Property Get get_playerColumn() Address: 571050
+Public Property Get get_xColumn() Address: 571068
+Public Property Get get_yColumn() Address: 571080
+Public Property Get get_citieColumn() Address: 571098
+Public Property Get get_Count() Address: 5710B0
+Public Property Get get_Item(index) Address: 5710D0
+Public Function add_friendscoordRowChanging(obj) Address: 5710F4
+Public Function remove_friendscoordRowChanging(obj) Address: 571110
+Public Function add_friendscoordRowChanged(obj) Address: 57112C
+Public Function remove_friendscoordRowChanged(obj) Address: 571148
+Public Function add_friendscoordRowDeleting(obj) Address: 571164
+Public Function remove_friendscoordRowDeleting(obj) Address: 571180
+Public Function add_friendscoordRowDeleted(obj) Address: 57119C
+Public Function remove_friendscoordRowDeleted(obj) Address: 5711B8
+Public Function AddfriendscoordRow(row) Address: 5711D4
+Public Function AddfriendscoordRow(alliance, player, str_337, str_338, citie) Address: 5711E8
+Public Sub Clone() Address: 571250
+Sub CreateInstance() Address: 571278
+Private Sub InitVars() Address: 571290
+Private Sub InitClass() Address: 571324
+Public Sub NewfriendscoordRow() Address: 5714A4
+Function NewRowFromBuilder(builder) Address: 5714C4
+Sub GetRowType() Address: 5714DC
+Function OnRowChanged(str_186) Address: 5714F8
+Function OnRowChanging(str_186) Address: 571550
+Function OnRowDeleted(str_186) Address: 5715A8
+Function OnRowDeleting(str_186) Address: 571600
+Public Function RemovefriendscoordRow(row) Address: 571658
+Public Function GetTypedTableSchema(str_275) Address: 57166C
+
+Object: -.hero_allianceDataTable
+Private Sub .cctor() Address: 5718E0
+Private Function __ENCAddToList(value) Address: 5718F0
+Public Sub .ctor() Address: 571A00
+Private Function .ctor(table) Address: 571A34
+Function .ctor(info, context) Address: 571B08
+Public Property Get get_hero_nrColumn() Address: 571B24
+Public Property Get get_hero_nameColumn() Address: 571B3C
+Public Property Get get_player_nameColumn() Address: 571B54
+Public Property Get get_allianceColumn() Address: 571B6C
+Public Property Get get_levelColumn() Address: 571B84
+Public Property Get get_politColumn() Address: 571B9C
+Public Property Get get_attColumn() Address: 571BB4
+Public Property Get get_intelColumn() Address: 571BCC
+Public Property Get get_Count() Address: 571BE4
+Public Property Get get_Item(index) Address: 571C04
+Public Function add_hero_allianceRowChanging(obj) Address: 571C28
+Public Function remove_hero_allianceRowChanging(obj) Address: 571C44
+Public Function add_hero_allianceRowChanged(obj) Address: 571C60
+Public Function remove_hero_allianceRowChanged(obj) Address: 571C7C
+Public Function add_hero_allianceRowDeleting(obj) Address: 571C98
+Public Function remove_hero_allianceRowDeleting(obj) Address: 571CB4
+Public Function add_hero_allianceRowDeleted(obj) Address: 571CD0
+Public Function remove_hero_allianceRowDeleted(obj) Address: 571CEC
+Public Function Addhero_allianceRow(row) Address: 571D08
+Public Function Addhero_allianceRow(hero_nr, hero_name, player_name, alliance, level, polit, att, intel) Address: 571D1C
+Public Sub Clone() Address: 571DA0
+Sub CreateInstance() Address: 571DC8
+Private Sub InitVars() Address: 571DE0
+Private Sub InitClass() Address: 571EA0
+Public Sub Newhero_allianceRow() Address: 572054
+Function NewRowFromBuilder(builder) Address: 572074
+Sub GetRowType() Address: 57208C
+Function OnRowChanged(str_186) Address: 5720A8
+Function OnRowChanging(str_186) Address: 572100
+Function OnRowDeleted(str_186) Address: 572158
+Function OnRowDeleting(str_186) Address: 5721B0
+Public Function Removehero_allianceRow(row) Address: 572208
+Public Function GetTypedTableSchema(str_275) Address: 57221C
+
+Object: -.neutralcoordDataTable
+Private Sub .cctor() Address: 572490
+Private Function __ENCAddToList(value) Address: 5724A0
+Public Sub .ctor() Address: 5725B0
+Private Function .ctor(table) Address: 5725E4
+Function .ctor(info, context) Address: 5726B8
+Public Property Get get_idColumn() Address: 5726D4
+Public Property Get get_allianceColumn() Address: 5726EC
+Public Property Get get_playerColumn() Address: 572704
+Public Property Get get_xColumn() Address: 57271C
+Public Property Get get_yColumn() Address: 572734
+Public Property Get get_Count() Address: 57274C
+Public Property Get get_Item(index) Address: 57276C
+Public Function add_neutralcoordRowChanging(obj) Address: 572790
+Public Function remove_neutralcoordRowChanging(obj) Address: 5727AC
+Public Function add_neutralcoordRowChanged(obj) Address: 5727C8
+Public Function remove_neutralcoordRowChanged(obj) Address: 5727E4
+Public Function add_neutralcoordRowDeleting(obj) Address: 572800
+Public Function remove_neutralcoordRowDeleting(obj) Address: 57281C
+Public Function add_neutralcoordRowDeleted(obj) Address: 572838
+Public Function remove_neutralcoordRowDeleted(obj) Address: 572854
+Public Function AddneutralcoordRow(row) Address: 572870
+Public Function AddneutralcoordRow(alliance, player, str_337, str_338) Address: 572884
+Public Sub Clone() Address: 5728E8
+Sub CreateInstance() Address: 572910
+Private Sub InitVars() Address: 572928
+Private Sub InitClass() Address: 5729A8
+Public Sub NewneutralcoordRow() Address: 572AE8
+Function NewRowFromBuilder(builder) Address: 572B08
+Sub GetRowType() Address: 572B20
+Function OnRowChanged(str_186) Address: 572B3C
+Function OnRowChanging(str_186) Address: 572B94
+Function OnRowDeleted(str_186) Address: 572BEC
+Function OnRowDeleting(str_186) Address: 572C44
+Public Function RemoveneutralcoordRow(row) Address: 572C9C
+Public Function GetTypedTableSchema(str_275) Address: 572CB0
+
+Object: -.altRow
+Private Function .ctor(str_672) Address: 572F24
+Public Property Get get_id() Address: 572F44
+Public Property Set set_id(Value) Address: 572F6C
+Public Property Get get_alliance() Address: 572F88
+Public Property Set set_alliance(Value) Address: 572FE0
+Public Property Get get_player() Address: 572FF8
+Public Property Set set_player(Value) Address: 573050
+Public Property Get get_x() Address: 573068
+Public Property Set set_x(Value) Address: 5730C0
+Public Property Get get_y() Address: 5730DC
+Public Property Set set_y(Value) Address: 573134
+Public Sub IsallianceNull() Address: 573150
+Public Sub SetallianceNull() Address: 573174
+Public Sub IsplayerNull() Address: 573194
+Public Sub SetplayerNull() Address: 5731B8
+Public Sub IsxNull() Address: 5731D8
+Public Sub SetxNull() Address: 5731FC
+Public Sub IsyNull() Address: 57321C
+Public Sub SetyNull() Address: 573240
+
+Object: -.cordinRow
+Private Function .ctor(str_672) Address: 573260
+Public Property Get get_alliance() Address: 573280
+Public Property Set set_alliance(Value) Address: 5732D8
+Public Property Get get_player() Address: 5732F0
+Public Property Set set_player(Value) Address: 573348
+Public Property Get get_x() Address: 573360
+Public Property Set set_x(Value) Address: 5733B8
+Public Property Get get_y() Address: 5733D4
+Public Property Set set_y(Value) Address: 57342C
+Public Property Get get_citie() Address: 573448
+Public Property Set set_citie(Value) Address: 5734A0
+Public Property Get get_ID() Address: 5734B8
+Public Property Set set_ID(Value) Address: 5734E0
+Public Sub IsallianceNull() Address: 5734FC
+Public Sub SetallianceNull() Address: 573520
+Public Sub IsplayerNull() Address: 573540
+Public Sub SetplayerNull() Address: 573564
+Public Sub IsxNull() Address: 573584
+Public Sub SetxNull() Address: 5735A8
+Public Sub IsyNull() Address: 5735C8
+Public Sub SetyNull() Address: 5735EC
+Public Sub IscitieNull() Address: 57360C
+Public Sub SetcitieNull() Address: 573630
+
+Object: -.enemiesRow
+Private Function .ctor(str_672) Address: 573650
+Public Property Get get_id() Address: 573670
+Public Property Set set_id(Value) Address: 573698
+Public Property Get get_alliance() Address: 5736B4
+Public Property Set set_alliance(Value) Address: 57370C
+Public Property Get get_player() Address: 573724
+Public Property Set set_player(Value) Address: 57377C
+Public Property Get get_x() Address: 573794
+Public Property Set set_x(Value) Address: 5737EC
+Public Property Get get_y() Address: 573808
+Public Property Set set_y(Value) Address: 573860
+Public Sub IsallianceNull() Address: 57387C
+Public Sub SetallianceNull() Address: 5738A0
+Public Sub IsplayerNull() Address: 5738C0
+Public Sub SetplayerNull() Address: 5738E4
+Public Sub IsxNull() Address: 573904
+Public Sub SetxNull() Address: 573928
+Public Sub IsyNull() Address: 573948
+Public Sub SetyNull() Address: 57396C
+
+Object: -.fieldRow
+Private Function .ctor(str_672) Address: 57398C
+Public Property Get get_x() Address: 5739AC
+Public Property Set set_x(Value) Address: 573A04
+Public Property Get get_y() Address: 573A20
+Public Property Set set_y(Value) Address: 573A78
+Public Property Get get_level() Address: 573A94
+Public Property Set set_level(Value) Address: 573AEC
+Public Property Get get_field() Address: 573B08
+Public Property Set set_field(Value) Address: 573B60
+Public Property Get get_ID() Address: 573B78
+Public Property Set set_ID(Value) Address: 573BA0
+Public Sub IsxNull() Address: 573BBC
+Public Sub SetxNull() Address: 573BE0
+Public Sub IsyNull() Address: 573C00
+Public Sub SetyNull() Address: 573C24
+Public Sub IslevelNull() Address: 573C44
+Public Sub SetlevelNull() Address: 573C68
+Public Sub IsfieldNull() Address: 573C88
+Public Sub SetfieldNull() Address: 573CAC
+
+Object: -.flatsRow
+Private Function .ctor(str_672) Address: 573CCC
+Public Property Get get_x() Address: 573CEC
+Public Property Set set_x(Value) Address: 573D44
+Public Property Get get_y() Address: 573D60
+Public Property Set set_y(Value) Address: 573DB8
+Public Property Get get_level() Address: 573DD4
+Public Property Set set_level(Value) Address: 573E2C
+Public Property Get get_ID() Address: 573E48
+Public Property Set set_ID(Value) Address: 573E70
+Public Sub IsxNull() Address: 573E8C
+Public Sub SetxNull() Address: 573EB0
+Public Sub IsyNull() Address: 573ED0
+Public Sub SetyNull() Address: 573EF4
+Public Sub IslevelNull() Address: 573F14
+Public Sub SetlevelNull() Address: 573F38
+
+Object: -.friendsRow
+Private Function .ctor(str_672) Address: 573F58
+Public Property Get get_id() Address: 573F78
+Public Property Set set_id(Value) Address: 573FA0
+Public Property Get get_alliance() Address: 573FBC
+Public Property Set set_alliance(Value) Address: 574014
+Public Property Get get_player() Address: 57402C
+Public Property Set set_player(Value) Address: 574084
+Public Property Get get_x() Address: 57409C
+Public Property Set set_x(Value) Address: 5740F4
+Public Property Get get_y() Address: 574110
+Public Property Set set_y(Value) Address: 574168
+Public Sub IsallianceNull() Address: 574184
+Public Sub SetallianceNull() Address: 5741A8
+Public Sub IsplayerNull() Address: 5741C8
+Public Sub SetplayerNull() Address: 5741EC
+Public Sub IsxNull() Address: 57420C
+Public Sub SetxNull() Address: 574230
+Public Sub IsyNull() Address: 574250
+Public Sub SetyNull() Address: 574274
+
+Object: -.heroRow
+Private Function .ctor(str_672) Address: 574294
+Public Property Get get_hero_nr() Address: 5742B4
+Public Property Set set_hero_nr(Value) Address: 57430C
+Public Property Get get_hero_name() Address: 574328
+Public Property Set set_hero_name(Value) Address: 574380
+Public Property Get get_player_name() Address: 574398
+Public Property Set set_player_name(Value) Address: 5743F0
+Public Property Get get_level() Address: 574408
+Public Property Set set_level(Value) Address: 574460
+Public Property Get get_polit() Address: 57447C
+Public Property Set set_polit(Value) Address: 5744D4
+Public Property Get get_att() Address: 5744F0
+Public Property Set set_att(Value) Address: 574548
+Public Property Get get_intel() Address: 574564
+Public Property Set set_intel(Value) Address: 5745BC
+Public Property Get get_id() Address: 5745D8
+Public Property Set set_id(Value) Address: 574600
+Public Sub Ishero_nrNull() Address: 57461C
+Public Sub Sethero_nrNull() Address: 574640
+Public Sub Ishero_nameNull() Address: 574660
+Public Sub Sethero_nameNull() Address: 574684
+Public Sub Isplayer_nameNull() Address: 5746A4
+Public Sub Setplayer_nameNull() Address: 5746C8
+Public Sub IslevelNull() Address: 5746E8
+Public Sub SetlevelNull() Address: 57470C
+Public Sub IspolitNull() Address: 57472C
+Public Sub SetpolitNull() Address: 574750
+Public Sub IsattNull() Address: 574770
+Public Sub SetattNull() Address: 574794
+Public Sub IsintelNull() Address: 5747B4
+Public Sub SetintelNull() Address: 5747D8
+
+Object: -.huntRow
+Private Function .ctor(str_672) Address: 5747F8
+Public Property Get get_x() Address: 574818
+Public Property Set set_x(Value) Address: 574870
+Public Property Get get_y() Address: 57488C
+Public Property Set set_y(Value) Address: 5748E4
+Public Property Get get_player() Address: 574900
+Public Property Set set_player(Value) Address: 574958
+Public Property Get get_ID() Address: 574970
+Public Property Set set_ID(Value) Address: 574998
+Public Sub IsxNull() Address: 5749B4
+Public Sub SetxNull() Address: 5749D8
+Public Sub IsyNull() Address: 5749F8
+Public Sub SetyNull() Address: 574A1C
+Public Sub IsplayerNull() Address: 574A3C
+Public Sub SetplayerNull() Address: 574A60
+
+Object: -.neutralRow
+Private Function .ctor(str_672) Address: 574A80
+Public Property Get get_id() Address: 574AA0
+Public Property Set set_id(Value) Address: 574AC8
+Public Property Get get_alliance() Address: 574AE4
+Public Property Set set_alliance(Value) Address: 574B3C
+Public Property Get get_player() Address: 574B54
+Public Property Set set_player(Value) Address: 574BAC
+Public Property Get get_x() Address: 574BC4
+Public Property Set set_x(Value) Address: 574C1C
+Public Property Get get_y() Address: 574C38
+Public Property Set set_y(Value) Address: 574C90
+Public Sub IsallianceNull() Address: 574CAC
+Public Sub SetallianceNull() Address: 574CD0
+Public Sub IsplayerNull() Address: 574CF0
+Public Sub SetplayerNull() Address: 574D14
+Public Sub IsxNull() Address: 574D34
+Public Sub SetxNull() Address: 574D58
+Public Sub IsyNull() Address: 574D78
+Public Sub SetyNull() Address: 574D9C
+
+Object: -.npcRow
+Private Function .ctor(str_672) Address: 574DBC
+Public Property Get get_x() Address: 574DDC
+Public Property Set set_x(Value) Address: 574E34
+Public Property Get get_y() Address: 574E50
+Public Property Set set_y(Value) Address: 574EA8
+Public Property Get get_level() Address: 574EC4
+Public Property Set set_level(Value) Address: 574F1C
+Public Property Get get_ID() Address: 574F38
+Public Property Set set_ID(Value) Address: 574F60
+Public Sub IsxNull() Address: 574F7C
+Public Sub SetxNull() Address: 574FA0
+Public Sub IsyNull() Address: 574FC0
+Public Sub SetyNull() Address: 574FE4
+Public Sub IslevelNull() Address: 575004
+Public Sub SetlevelNull() Address: 575028
+
+Object: -.altcoordRow
+Private Function .ctor(str_672) Address: 575048
+Public Property Get get_id() Address: 575068
+Public Property Set set_id(Value) Address: 5750C0
+Public Property Get get_player() Address: 5750DC
+Public Property Set set_player(Value) Address: 575134
+Public Property Get get_alliance() Address: 57514C
+Public Property Set set_alliance(Value) Address: 5751A4
+Public Property Get get_x() Address: 5751BC
+Public Property Set set_x(Value) Address: 575214
+Public Property Get get_y() Address: 575230
+Public Property Set set_y(Value) Address: 575288
+Public Property Get get_citie() Address: 5752A4
+Public Property Set set_citie(Value) Address: 5752FC
+Public Sub IsidNull() Address: 575314
+Public Sub SetidNull() Address: 575338
+Public Sub IsplayerNull() Address: 575358
+Public Sub SetplayerNull() Address: 57537C
+Public Sub IsallianceNull() Address: 57539C
+Public Sub SetallianceNull() Address: 5753C0
+Public Sub IsxNull() Address: 5753E0
+Public Sub SetxNull() Address: 575404
+Public Sub IsyNull() Address: 575424
+Public Sub SetyNull() Address: 575448
+Public Sub IscitieNull() Address: 575468
+Public Sub SetcitieNull() Address: 57548C
+
+Object: -.enemiescoordRow
+Private Function .ctor(str_672) Address: 5754AC
+Public Property Get get_id() Address: 5754CC
+Public Property Set set_id(Value) Address: 575524
+Public Property Get get_alliance() Address: 575540
+Public Property Set set_alliance(Value) Address: 575598
+Public Property Get get_player() Address: 5755B0
+Public Property Set set_player(Value) Address: 575608
+Public Property Get get_x() Address: 575620
+Public Property Set set_x(Value) Address: 575678
+Public Property Get get_y() Address: 575694
+Public Property Set set_y(Value) Address: 5756EC
+Public Property Get get_citie() Address: 575708
+Public Property Set set_citie(Value) Address: 575760
+Public Sub IsidNull() Address: 575778
+Public Sub SetidNull() Address: 57579C
+Public Sub IsallianceNull() Address: 5757BC
+Public Sub SetallianceNull() Address: 5757E0
+Public Sub IsplayerNull() Address: 575800
+Public Sub SetplayerNull() Address: 575824
+Public Sub IsxNull() Address: 575844
+Public Sub SetxNull() Address: 575868
+Public Sub IsyNull() Address: 575888
+Public Sub SetyNull() Address: 5758AC
+Public Sub IscitieNull() Address: 5758CC
+Public Sub SetcitieNull() Address: 5758F0
+
+Object: -.friendscoordRow
+Private Function .ctor(str_672) Address: 575910
+Public Property Get get_id() Address: 575930
+Public Property Set set_id(Value) Address: 575988
+Public Property Get get_alliance() Address: 5759A4
+Public Property Set set_alliance(Value) Address: 5759FC
+Public Property Get get_player() Address: 575A14
+Public Property Set set_player(Value) Address: 575A6C
+Public Property Get get_x() Address: 575A84
+Public Property Set set_x(Value) Address: 575ADC
+Public Property Get get_y() Address: 575AF8
+Public Property Set set_y(Value) Address: 575B50
+Public Property Get get_citie() Address: 575B6C
+Public Property Set set_citie(Value) Address: 575BC4
+Public Sub IsidNull() Address: 575BDC
+Public Sub SetidNull() Address: 575C00
+Public Sub IsallianceNull() Address: 575C20
+Public Sub SetallianceNull() Address: 575C44
+Public Sub IsplayerNull() Address: 575C64
+Public Sub SetplayerNull() Address: 575C88
+Public Sub IsxNull() Address: 575CA8
+Public Sub SetxNull() Address: 575CCC
+Public Sub IsyNull() Address: 575CEC
+Public Sub SetyNull() Address: 575D10
+Public Sub IscitieNull() Address: 575D30
+Public Sub SetcitieNull() Address: 575D54
+
+Object: -.hero_allianceRow
+Private Function .ctor(str_672) Address: 575D74
+Public Property Get get_hero_nr() Address: 575D94
+Public Property Set set_hero_nr(Value) Address: 575DEC
+Public Property Get get_hero_name() Address: 575E08
+Public Property Set set_hero_name(Value) Address: 575E60
+Public Property Get get_player_name() Address: 575E78
+Public Property Set set_player_name(Value) Address: 575ED0
+Public Property Get get_alliance() Address: 575EE8
+Public Property Set set_alliance(Value) Address: 575F40
+Public Property Get get_level() Address: 575F58
+Public Property Set set_level(Value) Address: 575FB0
+Public Property Get get_polit() Address: 575FCC
+Public Property Set set_polit(Value) Address: 576024
+Public Property Get get_att() Address: 576040
+Public Property Set set_att(Value) Address: 576098
+Public Property Get get_intel() Address: 5760B4
+Public Property Set set_intel(Value) Address: 57610C
+Public Sub Ishero_nrNull() Address: 576128
+Public Sub Sethero_nrNull() Address: 57614C
+Public Sub Ishero_nameNull() Address: 57616C
+Public Sub Sethero_nameNull() Address: 576190
+Public Sub Isplayer_nameNull() Address: 5761B0
+Public Sub Setplayer_nameNull() Address: 5761D4
+Public Sub IsallianceNull() Address: 5761F4
+Public Sub SetallianceNull() Address: 576218
+Public Sub IslevelNull() Address: 576238
+Public Sub SetlevelNull() Address: 57625C
+Public Sub IspolitNull() Address: 57627C
+Public Sub SetpolitNull() Address: 5762A0
+Public Sub IsattNull() Address: 5762C0
+Public Sub SetattNull() Address: 5762E4
+Public Sub IsintelNull() Address: 576304
+Public Sub SetintelNull() Address: 576328
+
+Object: -.neutralcoordRow
+Private Function .ctor(str_672) Address: 576348
+Public Property Get get_id() Address: 576368
+Public Property Set set_id(Value) Address: 5763C0
+Public Property Get get_alliance() Address: 5763DC
+Public Property Set set_alliance(Value) Address: 576434
+Public Property Get get_player() Address: 57644C
+Public Property Set set_player(Value) Address: 5764A4
+Public Property Get get_x() Address: 5764BC
+Public Property Set set_x(Value) Address: 576514
+Public Property Get get_y() Address: 576530
+Public Property Set set_y(Value) Address: 576588
+Public Sub IsidNull() Address: 5765A4
+Public Sub SetidNull() Address: 5765C8
+Public Sub IsallianceNull() Address: 5765E8
+Public Sub SetallianceNull() Address: 57660C
+Public Sub IsplayerNull() Address: 57662C
+Public Sub SetplayerNull() Address: 576650
+Public Sub IsxNull() Address: 576670
+Public Sub SetxNull() Address: 576694
+Public Sub IsyNull() Address: 5766B4
+Public Sub SetyNull() Address: 5766D8
+
+Object: -.altRowChangeEvent
+Public Function .ctor(row, action) Address: 5766F8
+Public Property Get get_Row() Address: 576714
+Public Property Get get_Action() Address: 57672C
+
+Object: -.cordinRowChangeEvent
+Public Function .ctor(row, action) Address: 576744
+Public Property Get get_Row() Address: 576760
+Public Property Get get_Action() Address: 576778
+
+Object: -.enemiesRowChangeEvent
+Public Function .ctor(row, action) Address: 576790
+Public Property Get get_Row() Address: 5767AC
+Public Property Get get_Action() Address: 5767C4
+
+Object: -.fieldRowChangeEvent
+Public Function .ctor(row, action) Address: 5767DC
+Public Property Get get_Row() Address: 5767F8
+Public Property Get get_Action() Address: 576810
+
+Object: -.flatsRowChangeEvent
+Public Function .ctor(row, action) Address: 576828
+Public Property Get get_Row() Address: 576844
+Public Property Get get_Action() Address: 57685C
+
+Object: -.friendsRowChangeEvent
+Public Function .ctor(row, action) Address: 576874
+Public Property Get get_Row() Address: 576890
+Public Property Get get_Action() Address: 5768A8
+
+Object: -.heroRowChangeEvent
+Public Function .ctor(row, action) Address: 5768C0
+Public Property Get get_Row() Address: 5768DC
+Public Property Get get_Action() Address: 5768F4
+
+Object: -.huntRowChangeEvent
+Public Function .ctor(row, action) Address: 57690C
+Public Property Get get_Row() Address: 576928
+Public Property Get get_Action() Address: 576940
+
+Object: -.neutralRowChangeEvent
+Public Function .ctor(row, action) Address: 576958
+Public Property Get get_Row() Address: 576974
+Public Property Get get_Action() Address: 57698C
+
+Object: -.npcRowChangeEvent
+Public Function .ctor(row, action) Address: 5769A4
+Public Property Get get_Row() Address: 5769C0
+Public Property Get get_Action() Address: 5769D8
+
+Object: -.altcoordRowChangeEvent
+Public Function .ctor(row, action) Address: 5769F0
+Public Property Get get_Row() Address: 576A0C
+Public Property Get get_Action() Address: 576A24
+
+Object: -.enemiescoordRowChangeEvent
+Public Function .ctor(row, action) Address: 576A3C
+Public Property Get get_Row() Address: 576A58
+Public Property Get get_Action() Address: 576A70
+
+Object: -.friendscoordRowChangeEvent
+Public Function .ctor(row, action) Address: 576A88
+Public Property Get get_Row() Address: 576AA4
+Public Property Get get_Action() Address: 576ABC
+
+Object: -.hero_allianceRowChangeEvent
+Public Function .ctor(row, action) Address: 576AD4
+Public Property Get get_Row() Address: 576AF0
+Public Property Get get_Action() Address: 576B08
+
+Object: -.neutralcoordRowChangeEvent
+Public Function .ctor(row, action) Address: 576B20
+Public Property Get get_Row() Address: 576B3C
+Public Property Get get_Action() Address: 576B54
+
+Object: vscan.dbDataSetTableAdapters.altTableAdapter
+Private Sub .cctor() Address: 576B6C
+Private Function __ENCAddToList(value) Address: 576B7C
+Private Property Get get__adapter() Address: 576C8C
+Private Property Set set__adapter(WithEventsValue) Address: 576CA4
+Public Sub .ctor() Address: 576CB0
+Private Property Get get_Adapter() Address: 576CCC
+Private Property Get get_Connection() Address: 576CFC
+Private Property Set set_Connection(Value) Address: 576D2C
+Private Property Get get_Transaction() Address: 576DF4
+Private Property Set set_Transaction(Value) Address: 576E0C
+Property Get get_CommandCollection() Address: 576EF0
+Public Property Get get_ClearBeforeFill() Address: 576F20
+Public Property Set set_ClearBeforeFill(Value) Address: 576F38
+Private Sub InitAdapter() Address: 576F44
+Private Sub InitConnection() Address: 577608
+Private Sub InitCommandCollection() Address: 577630
+Public Function Fill(dataTable) Address: 577690
+Public Sub GetData() Address: 5776D8
+Public Function Update(dataTable) Address: 577714
+Public Function Update(dataSet) Address: 577734
+Public Function Update(dataRow) Address: 577758
+Public Function Update(dataRows) Address: 577784
+Public Function Delete(Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 5777A4
+Public Function Insert(alliance, player, str_337, str_338) Address: 577AC4
+Public Function Update(alliance, player, str_337, str_338, Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 577CB0
+
+Object: vscan.dbDataSetTableAdapters.cordinTableAdapter
+Private Sub .cctor() Address: 578120
+Private Function __ENCAddToList(value) Address: 578130
+Private Property Get get__adapter() Address: 578240
+Private Property Set set__adapter(WithEventsValue) Address: 578258
+Public Sub .ctor() Address: 578264
+Private Property Get get_Adapter() Address: 578280
+Private Property Get get_Connection() Address: 5782B0
+Private Property Set set_Connection(Value) Address: 5782E0
+Private Property Get get_Transaction() Address: 5783A8
+Private Property Set set_Transaction(Value) Address: 5783C0
+Property Get get_CommandCollection() Address: 5784A4
+Public Property Get get_ClearBeforeFill() Address: 5784D4
+Public Property Set set_ClearBeforeFill(Value) Address: 5784EC
+Private Sub InitAdapter() Address: 5784F8
+Private Sub InitConnection() Address: 578D6C
+Private Sub InitCommandCollection() Address: 578D94
+Public Function Fill(dataTable) Address: 579048
+Public Sub GetData() Address: 579090
+Public Function searchalliance(dataTable, alliance) Address: 5790CC
+Public Function searchcitie(dataTable, citie) Address: 57915C
+Public Function searchmix(dataTable, alliance, player, citie) Address: 5791EC
+Public Function searchplayer(dataTable, player) Address: 579314
+Public Function Update(dataTable) Address: 5793A4
+Public Function Update(dataSet) Address: 5793C4
+Public Function Update(dataRow) Address: 5793E8
+Public Function Update(dataRows) Address: 579414
+Public Function Delete(Original_alliance, Original_player, Original_x, Original_y, Original_citie, Original_ID) Address: 579434
+Public Function Insert(alliance, player, str_337, str_338, citie, str_384) Address: 57981C
+Public Function Update(alliance, player, str_337, str_338, citie, str_384, Original_alliance, Original_player, Original_x, Original_y, Original_citie, Original_ID) Address: 579AAC
+Public Function Update(alliance, player, str_337, str_338, citie, Original_alliance, Original_player, Original_x, Original_y, Original_citie, Original_ID) Address: 57A08C
+
+Object: vscan.dbDataSetTableAdapters.enemiesTableAdapter
+Private Sub .cctor() Address: 57A0BC
+Private Function __ENCAddToList(value) Address: 57A0CC
+Private Property Get get__adapter() Address: 57A1DC
+Private Property Set set__adapter(WithEventsValue) Address: 57A1F4
+Public Sub .ctor() Address: 57A200
+Private Property Get get_Adapter() Address: 57A21C
+Private Property Get get_Connection() Address: 57A24C
+Private Property Set set_Connection(Value) Address: 57A27C
+Private Property Get get_Transaction() Address: 57A344
+Private Property Set set_Transaction(Value) Address: 57A35C
+Property Get get_CommandCollection() Address: 57A440
+Public Property Get get_ClearBeforeFill() Address: 57A470
+Public Property Set set_ClearBeforeFill(Value) Address: 57A488
+Private Sub InitAdapter() Address: 57A494
+Private Sub InitConnection() Address: 57AB58
+Private Sub InitCommandCollection() Address: 57AB80
+Public Function Fill(dataTable) Address: 57ABE0
+Public Sub GetData() Address: 57AC28
+Public Function Update(dataTable) Address: 57AC64
+Public Function Update(dataSet) Address: 57AC84
+Public Function Update(dataRow) Address: 57ACA8
+Public Function Update(dataRows) Address: 57ACD4
+Public Function Delete(Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 57ACF4
+Public Function Insert(alliance, player, str_337, str_338) Address: 57B014
+Public Function Update(alliance, player, str_337, str_338, Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 57B200
+
+Object: vscan.dbDataSetTableAdapters.fieldTableAdapter
+Private Sub .cctor() Address: 57B670
+Private Function __ENCAddToList(value) Address: 57B680
+Private Property Get get__adapter() Address: 57B790
+Private Property Set set__adapter(WithEventsValue) Address: 57B7A8
+Public Sub .ctor() Address: 57B7B4
+Private Property Get get_Adapter() Address: 57B7D0
+Private Property Get get_Connection() Address: 57B800
+Private Property Set set_Connection(Value) Address: 57B830
+Private Property Get get_Transaction() Address: 57B8F8
+Private Property Set set_Transaction(Value) Address: 57B910
+Property Get get_CommandCollection() Address: 57B9F4
+Public Property Get get_ClearBeforeFill() Address: 57BA24
+Public Property Set set_ClearBeforeFill(Value) Address: 57BA3C
+Private Sub InitAdapter() Address: 57BA48
+Private Sub InitConnection() Address: 57C0FC
+Private Sub InitCommandCollection() Address: 57C124
+Public Function Fill(dataTable) Address: 57C184
+Public Sub GetData() Address: 57C1CC
+Public Function Update(dataTable) Address: 57C208
+Public Function Update(dataSet) Address: 57C228
+Public Function Update(dataRow) Address: 57C24C
+Public Function Update(dataRows) Address: 57C278
+Public Function Delete(Original_x, Original_y, Original_level, Original_field, Original_ID) Address: 57C298
+Public Function Insert(str_337, str_338, level, field) Address: 57C5C8
+Public Function Update(str_337, str_338, level, field, Original_x, Original_y, Original_level, Original_field, Original_ID) Address: 57C7C4
+
+Object: vscan.dbDataSetTableAdapters.flatsTableAdapter
+Private Sub .cctor() Address: 57CC50
+Private Function __ENCAddToList(value) Address: 57CC60
+Private Property Get get__adapter() Address: 57CD70
+Private Property Set set__adapter(WithEventsValue) Address: 57CD88
+Public Sub .ctor() Address: 57CD94
+Private Property Get get_Adapter() Address: 57CDB0
+Private Property Get get_Connection() Address: 57CDE0
+Private Property Set set_Connection(Value) Address: 57CE10
+Private Property Get get_Transaction() Address: 57CED8
+Private Property Set set_Transaction(Value) Address: 57CEF0
+Property Get get_CommandCollection() Address: 57CFD4
+Public Property Get get_ClearBeforeFill() Address: 57D004
+Public Property Set set_ClearBeforeFill(Value) Address: 57D01C
+Private Sub InitAdapter() Address: 57D028
+Private Sub InitConnection() Address: 57D590
+Private Sub InitCommandCollection() Address: 57D5B8
+Public Function Fill(dataTable) Address: 57D618
+Public Sub GetData() Address: 57D660
+Public Function Update(dataTable) Address: 57D69C
+Public Function Update(dataSet) Address: 57D6BC
+Public Function Update(dataRow) Address: 57D6E0
+Public Function Update(dataRows) Address: 57D70C
+Public Function Delete(Original_x, Original_y, Original_level, Original_ID) Address: 57D72C
+Public Function Insert(str_337, str_338, level) Address: 57D9CC
+Public Function Update(str_337, str_338, level, Original_x, Original_y, Original_level, Original_ID) Address: 57DB7C
+
+Object: vscan.dbDataSetTableAdapters.friendsTableAdapter
+Private Sub .cctor() Address: 57DF24
+Private Function __ENCAddToList(value) Address: 57DF34
+Private Property Get get__adapter() Address: 57E044
+Private Property Set set__adapter(WithEventsValue) Address: 57E05C
+Public Sub .ctor() Address: 57E068
+Private Property Get get_Adapter() Address: 57E084
+Private Property Get get_Connection() Address: 57E0B4
+Private Property Set set_Connection(Value) Address: 57E0E4
+Private Property Get get_Transaction() Address: 57E1AC
+Private Property Set set_Transaction(Value) Address: 57E1C4
+Property Get get_CommandCollection() Address: 57E2A8
+Public Property Get get_ClearBeforeFill() Address: 57E2D8
+Public Property Set set_ClearBeforeFill(Value) Address: 57E2F0
+Private Sub InitAdapter() Address: 57E2FC
+Private Sub InitConnection() Address: 57E9C0
+Private Sub InitCommandCollection() Address: 57E9E8
+Public Function Fill(dataTable) Address: 57EA48
+Public Sub GetData() Address: 57EA90
+Public Function Update(dataTable) Address: 57EACC
+Public Function Update(dataSet) Address: 57EAEC
+Public Function Update(dataRow) Address: 57EB10
+Public Function Update(dataRows) Address: 57EB3C
+Public Function Delete(Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 57EB5C
+Public Function Insert(alliance, player, str_337, str_338) Address: 57EE7C
+Public Function Update(alliance, player, str_337, str_338, Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 57F068
+
+Object: vscan.dbDataSetTableAdapters.heroTableAdapter
+Private Sub .cctor() Address: 57F4D8
+Private Function __ENCAddToList(value) Address: 57F4E8
+Private Property Get get__adapter() Address: 57F5F8
+Private Property Set set__adapter(WithEventsValue) Address: 57F610
+Public Sub .ctor() Address: 57F61C
+Private Property Get get_Adapter() Address: 57F638
+Private Property Get get_Connection() Address: 57F668
+Private Property Set set_Connection(Value) Address: 57F698
+Private Property Get get_Transaction() Address: 57F760
+Private Property Set set_Transaction(Value) Address: 57F778
+Property Get get_CommandCollection() Address: 57F85C
+Public Property Get get_ClearBeforeFill() Address: 57F88C
+Public Property Set set_ClearBeforeFill(Value) Address: 57F8A4
+Private Sub InitAdapter() Address: 57F8B0
+Private Sub InitConnection() Address: 580328
+Private Sub InitCommandCollection() Address: 580350
+Public Function Fill(dataTable) Address: 5803B0
+Public Sub GetData() Address: 5803F8
+Public Function Update(dataTable) Address: 580434
+Public Function Update(dataSet) Address: 580454
+Public Function Update(dataRow) Address: 580478
+Public Function Update(dataRows) Address: 5804A4
+Public Function Delete(Original_hero_nr, Original_hero_name, Original_player_name, Original_level, Original_polit, Original_att, Original_intel, Original_id) Address: 5804C4
+Public Function Insert(hero_nr, hero_name, player_name, level, polit, att, intel) Address: 5809C4
+Public Function Update(hero_nr, hero_name, player_name, level, polit, att, intel, Original_hero_nr, Original_hero_name, Original_player_name, Original_level, Original_polit, Original_att, Original_intel, Original_id) Address: 580CB8
+
+Object: vscan.dbDataSetTableAdapters.huntTableAdapter
+Private Sub .cctor() Address: 581414
+Private Function __ENCAddToList(value) Address: 581424
+Private Property Get get__adapter() Address: 581534
+Private Property Set set__adapter(WithEventsValue) Address: 58154C
+Public Sub .ctor() Address: 581558
+Private Property Get get_Adapter() Address: 581574
+Private Property Get get_Connection() Address: 5815A4
+Private Property Set set_Connection(Value) Address: 5815D4
+Private Property Get get_Transaction() Address: 58169C
+Private Property Set set_Transaction(Value) Address: 5816B4
+Property Get get_CommandCollection() Address: 581798
+Public Property Get get_ClearBeforeFill() Address: 5817C8
+Public Property Set set_ClearBeforeFill(Value) Address: 5817E0
+Private Sub InitAdapter() Address: 5817EC
+Private Sub InitConnection() Address: 581D64
+Private Sub InitCommandCollection() Address: 581D8C
+Public Function Fill(dataTable) Address: 581DEC
+Public Sub GetData() Address: 581E34
+Public Function Update(dataTable) Address: 581E70
+Public Function Update(dataSet) Address: 581E90
+Public Function Update(dataRow) Address: 581EB4
+Public Function Update(dataRows) Address: 581EE0
+Public Function Delete(Original_x, Original_y, Original_player, Original_ID) Address: 581F00
+Public Function Insert(str_337, str_338, player) Address: 582190
+Public Function Update(str_337, str_338, player, Original_x, Original_y, Original_player, Original_ID) Address: 582334
+
+Object: vscan.dbDataSetTableAdapters.neutralTableAdapter
+Private Sub .cctor() Address: 5826C4
+Private Function __ENCAddToList(value) Address: 5826D4
+Private Property Get get__adapter() Address: 5827E4
+Private Property Set set__adapter(WithEventsValue) Address: 5827FC
+Public Sub .ctor() Address: 582808
+Private Property Get get_Adapter() Address: 582824
+Private Property Get get_Connection() Address: 582854
+Private Property Set set_Connection(Value) Address: 582884
+Private Property Get get_Transaction() Address: 58294C
+Private Property Set set_Transaction(Value) Address: 582964
+Property Get get_CommandCollection() Address: 582A48
+Public Property Get get_ClearBeforeFill() Address: 582A78
+Public Property Set set_ClearBeforeFill(Value) Address: 582A90
+Private Sub InitAdapter() Address: 582A9C
+Private Sub InitConnection() Address: 583160
+Private Sub InitCommandCollection() Address: 583188
+Public Function Fill(dataTable) Address: 5831E8
+Public Sub GetData() Address: 583230
+Public Function Update(dataTable) Address: 58326C
+Public Function Update(dataSet) Address: 58328C
+Public Function Update(dataRow) Address: 5832B0
+Public Function Update(dataRows) Address: 5832DC
+Public Function Delete(Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 5832FC
+Public Function Insert(alliance, player, str_337, str_338) Address: 58361C
+Public Function Update(alliance, player, str_337, str_338, Original_id, Original_alliance, Original_player, Original_x, Original_y) Address: 583808
+
+Object: vscan.dbDataSetTableAdapters.npcTableAdapter
+Private Sub .cctor() Address: 583C78
+Private Function __ENCAddToList(value) Address: 583C88
+Private Property Get get__adapter() Address: 583D98
+Private Property Set set__adapter(WithEventsValue) Address: 583DB0
+Public Sub .ctor() Address: 583DBC
+Private Property Get get_Adapter() Address: 583DD8
+Private Property Get get_Connection() Address: 583E08
+Private Property Set set_Connection(Value) Address: 583E38
+Private Property Get get_Transaction() Address: 583F00
+Private Property Set set_Transaction(Value) Address: 583F18
+Property Get get_CommandCollection() Address: 583FFC
+Public Property Get get_ClearBeforeFill() Address: 58402C
+Public Property Set set_ClearBeforeFill(Value) Address: 584044
+Private Sub InitAdapter() Address: 584050
+Private Sub InitConnection() Address: 5845B8
+Private Sub InitCommandCollection() Address: 5845E0
+Public Function Fill(dataTable) Address: 584640
+Public Sub GetData() Address: 584688
+Public Function Update(dataTable) Address: 5846C4
+Public Function Update(dataSet) Address: 5846E4
+Public Function Update(dataRow) Address: 584708
+Public Function Update(dataRows) Address: 584734
+Public Function Delete(Original_x, Original_y, Original_level, Original_ID) Address: 584754
+Public Function Insert(str_337, str_338, level) Address: 5849F4
+Public Function Update(str_337, str_338, level, Original_x, Original_y, Original_level, Original_ID) Address: 584BA4
+
+Object: vscan.dbDataSetTableAdapters.altcoordTableAdapter
+Private Sub .cctor() Address: 584F4C
+Private Function __ENCAddToList(value) Address: 584F5C
+Private Property Get get__adapter() Address: 58506C
+Private Property Set set__adapter(WithEventsValue) Address: 585084
+Public Sub .ctor() Address: 585090
+Private Property Get get_Adapter() Address: 5850AC
+Private Property Get get_Connection() Address: 5850DC
+Private Property Set set_Connection(Value) Address: 58510C
+Private Property Get get_Transaction() Address: 5851D4
+Private Property Set set_Transaction(Value) Address: 5851EC
+Property Get get_CommandCollection() Address: 5852D0
+Public Property Get get_ClearBeforeFill() Address: 585300
+Public Property Set set_ClearBeforeFill(Value) Address: 585318
+Private Sub InitAdapter() Address: 585324
+Private Sub InitConnection() Address: 5853F4
+Private Sub InitCommandCollection() Address: 58541C
+Public Function Fill(dataTable) Address: 58547C
+Public Sub GetData() Address: 5854C4
+
+Object: vscan.dbDataSetTableAdapters.enemiescoordTableAdapter
+Private Sub .cctor() Address: 585500
+Private Function __ENCAddToList(value) Address: 585510
+Private Property Get get__adapter() Address: 585620
+Private Property Set set__adapter(WithEventsValue) Address: 585638
+Public Sub .ctor() Address: 585644
+Private Property Get get_Adapter() Address: 585660
+Private Property Get get_Connection() Address: 585690
+Private Property Set set_Connection(Value) Address: 5856C0
+Private Property Get get_Transaction() Address: 585788
+Private Property Set set_Transaction(Value) Address: 5857A0
+Property Get get_CommandCollection() Address: 585884
+Public Property Get get_ClearBeforeFill() Address: 5858B4
+Public Property Set set_ClearBeforeFill(Value) Address: 5858CC
+Private Sub InitAdapter() Address: 5858D8
+Private Sub InitConnection() Address: 5859A8
+Private Sub InitCommandCollection() Address: 5859D0
+Public Function Fill(dataTable) Address: 585A30
+Public Sub GetData() Address: 585A78
+
+Object: vscan.dbDataSetTableAdapters.friendscoordTableAdapter
+Private Sub .cctor() Address: 585AB4
+Private Function __ENCAddToList(value) Address: 585AC4
+Private Property Get get__adapter() Address: 585BD4
+Private Property Set set__adapter(WithEventsValue) Address: 585BEC
+Public Sub .ctor() Address: 585BF8
+Private Property Get get_Adapter() Address: 585C14
+Private Property Get get_Connection() Address: 585C44
+Private Property Set set_Connection(Value) Address: 585C74
+Private Property Get get_Transaction() Address: 585D3C
+Private Property Set set_Transaction(Value) Address: 585D54
+Property Get get_CommandCollection() Address: 585E38
+Public Property Get get_ClearBeforeFill() Address: 585E68
+Public Property Set set_ClearBeforeFill(Value) Address: 585E80
+Private Sub InitAdapter() Address: 585E8C
+Private Sub InitConnection() Address: 585F5C
+Private Sub InitCommandCollection() Address: 585F84
+Public Function Fill(dataTable) Address: 585FE4
+Public Sub GetData() Address: 58602C
+
+Object: vscan.dbDataSetTableAdapters.hero_allianceTableAdapter
+Private Sub .cctor() Address: 586068
+Private Function __ENCAddToList(value) Address: 586078
+Private Property Get get__adapter() Address: 586188
+Private Property Set set__adapter(WithEventsValue) Address: 5861A0
+Public Sub .ctor() Address: 5861AC
+Private Property Get get_Adapter() Address: 5861C8
+Private Property Get get_Connection() Address: 5861F8
+Private Property Set set_Connection(Value) Address: 586228
+Private Property Get get_Transaction() Address: 5862F0
+Private Property Set set_Transaction(Value) Address: 586308
+Property Get get_CommandCollection() Address: 5863EC
+Public Property Get get_ClearBeforeFill() Address: 58641C
+Public Property Set set_ClearBeforeFill(Value) Address: 586434
+Private Sub InitAdapter() Address: 586440
+Private Sub InitConnection() Address: 58653C
+Private Sub InitCommandCollection() Address: 586564
+Public Function Fill(dataTable) Address: 586734
+Public Sub GetData() Address: 58677C
+Public Function searchalliance1(dataTable, alliance) Address: 5867B8
+Public Function searchhero(dataTable, hero_name) Address: 586848
+Public Function searchplayer1(dataTable, player_name) Address: 5868D8
+
+Object: vscan.dbDataSetTableAdapters.neutralcoordTableAdapter
+Private Sub .cctor() Address: 586968
+Private Function __ENCAddToList(value) Address: 586978
+Private Property Get get__adapter() Address: 586A88
+Private Property Set set__adapter(WithEventsValue) Address: 586AA0
+Public Sub .ctor() Address: 586AAC
+Private Property Get get_Adapter() Address: 586AC8
+Private Property Get get_Connection() Address: 586AF8
+Private Property Set set_Connection(Value) Address: 586B28
+Private Property Get get_Transaction() Address: 586BF0
+Private Property Set set_Transaction(Value) Address: 586C08
+Property Get get_CommandCollection() Address: 586CEC
+Public Property Get get_ClearBeforeFill() Address: 586D1C
+Public Property Set set_ClearBeforeFill(Value) Address: 586D34
+Private Sub InitAdapter() Address: 586D40
+Private Sub InitConnection() Address: 586DFC
+Private Sub InitCommandCollection() Address: 586E24
+Public Function Fill(dataTable) Address: 586E84
+Public Sub GetData() Address: 586ECC
+
+Object: vscan.dbDataSetTableAdapters.TableAdapterManager
+Private Sub .cctor() Address: 586F08
+Public Sub .ctor() Address: 586F18
+Private Function __ENCAddToList(value) Address: 586F2C
+Public Property Get get_UpdateOrder() Address: 58703C
+Public Property Set set_UpdateOrder(Value) Address: 587054
+Public Property Get get_altTableAdapter() Address: 587060
+Public Property Set set_altTableAdapter(Value) Address: 587078
+Public Property Get get_cordinTableAdapter() Address: 587084
+Public Property Set set_cordinTableAdapter(Value) Address: 58709C
+Public Property Get get_enemiesTableAdapter() Address: 5870A8
+Public Property Set set_enemiesTableAdapter(Value) Address: 5870C0
+Public Property Get get_fieldTableAdapter() Address: 5870CC
+Public Property Set set_fieldTableAdapter(Value) Address: 5870E4
+Public Property Get get_flatsTableAdapter() Address: 5870F0
+Public Property Set set_flatsTableAdapter(Value) Address: 587108
+Public Property Get get_friendsTableAdapter() Address: 587114
+Public Property Set set_friendsTableAdapter(Value) Address: 58712C
+Public Property Get get_heroTableAdapter() Address: 587138
+Public Property Set set_heroTableAdapter(Value) Address: 587150
+Public Property Get get_huntTableAdapter() Address: 58715C
+Public Property Set set_huntTableAdapter(Value) Address: 587174
+Public Property Get get_neutralTableAdapter() Address: 587180
+Public Property Set set_neutralTableAdapter(Value) Address: 587198
+Public Property Get get_npcTableAdapter() Address: 5871A4
+Public Property Set set_npcTableAdapter(Value) Address: 5871BC
+Public Property Get get_BackupDataSetBeforeUpdate() Address: 5871C8
+Public Property Set set_BackupDataSetBeforeUpdate(Value) Address: 5871E0
+Public Property Get get_Connection() Address: 5871EC
+Public Property Set set_Connection(Value) Address: 5873F4
+Public Property Get get_TableAdapterInstanceCount() Address: 587400
+Private Function UpdateUpdatedRows(dataSet, allChangedRows, allAddedRows) Address: 5874E8
+Private Function UpdateInsertedRows(dataSet, allAddedRows) Address: 5878A8
+Private Function UpdateDeletedRows(dataSet, allChangedRows) Address: 587BF4
+Private Function GetRealUpdatedRows(updatedRows, allAddedRows) Address: 587F40
+Public Function UpdateAll(dataSet) Address: 587FC8
+Function SortSelfReferenceRows(rows, relation, childFirst) Address: 588CF0
+Function MatchTableAdapterConnection(inputConnection) Address: 588D04
+
+Object: -.SelfReferenceComparer
+Private Function .ctor(relation, childFirst) Address: 588D68
+Private Function GetRoot(row, distance) Address: 588D9C
+Public Function Compare(row1, row2) Address: 588E8C
+
+Object: vscan.LicenseForm
+Private Sub .cctor() Address: 59335C
+Private Function __ENCAddToList(value) Address: 59336C
+Function Dispose(disposing) Address: 59347C
+Private Sub InitializeComponent() Address: 5934CC
+Private Property Get get_cmdSysInfo() Address: 593A6C
+Private Property Set set_cmdSysInfo(WithEventsValue) Address: 593A84
+Private Property Get get_label3() Address: 593AE4
+Private Property Set set_label3(WithEventsValue) Address: 593AFC
+Private Property Get get_label2() Address: 593B08
+Private Property Set set_label2(WithEventsValue) Address: 593B20
+Private Property Get get_lblExpiration() Address: 593B2C
+Private Property Set set_lblExpiration(WithEventsValue) Address: 593B44
+Private Property Get get_cmdActivate() Address: 593B50
+Private Property Set set_cmdActivate(WithEventsValue) Address: 593B68
+Private Property Get get_txtActivationKey() Address: 593BC8
+Private Property Set set_txtActivationKey(WithEventsValue) Address: 593BE0
+Private Property Get get_cmdOK() Address: 593BEC
+Private Property Set set_cmdOK(WithEventsValue) Address: 593C04
+Private Property Get get_txtUnlockKey() Address: 593C10
+Private Property Set set_txtUnlockKey(WithEventsValue) Address: 593C28
+Private Property Get get_label1() Address: 593C34
+Private Property Set set_label1(WithEventsValue) Address: 593C4C
+Public Function .ctor(aoLicense) Address: 593C58
+Public Property Get get_IsAwsCalled() Address: 593D78
+Public Property Get get_UnlockKey() Address: 593D90
+Public Property Get get_ActivationKey() Address: 593DDC
+Private Function cmdSysInfo_Click(sender, str_186) Address: 593E28
+Private Function cmdActivateAndFill_Click(sender, str_186) Address: 593E54
+Private Function EnableButtons(enabled) Address: 593F44
+Private Function LicenseForm_Load(sender, str_186) Address: 593F70
+
+Object: vscan.map
+Private Sub .cctor() Address: 593F74
+Public Sub .ctor() Address: 593F84
+Private Function __ENCAddToList(value) Address: 594000
+Function Dispose(disposing) Address: 594110
+Private Sub InitializeComponent() Address: 594160
+Private Property Get get_Panel1() Address: 596AF0
+Private Property Set set_Panel1(WithEventsValue) Address: 596B08
+Private Property Get get_PictureBox1() Address: 596B14
+Private Property Set set_PictureBox1(WithEventsValue) Address: 596B2C
+Private Property Get get_GroupBox2() Address: 596B8C
+Private Property Set set_GroupBox2(WithEventsValue) Address: 596BA4
+Private Property Get get_Button1() Address: 596BB0
+Private Property Set set_Button1(WithEventsValue) Address: 596BC8
+Private Property Get get_CheckBox4() Address: 596C28
+Private Property Set set_CheckBox4(WithEventsValue) Address: 596C40
+Private Property Get get_CheckBox3() Address: 596C4C
+Private Property Set set_CheckBox3(WithEventsValue) Address: 596C64
+Private Property Get get_CheckBox2() Address: 596C70
+Private Property Set set_CheckBox2(WithEventsValue) Address: 596C88
+Private Property Get get_CheckBox1() Address: 596C94
+Private Property Set set_CheckBox1(WithEventsValue) Address: 596CAC
+Private Property Get get_GroupBox3() Address: 596CB8
+Private Property Set set_GroupBox3(WithEventsValue) Address: 596CD0
+Private Property Get get_CheckBox8() Address: 596CDC
+Private Property Set set_CheckBox8(WithEventsValue) Address: 596CF4
+Private Property Get get_CheckBox7() Address: 596D00
+Private Property Set set_CheckBox7(WithEventsValue) Address: 596D18
+Private Property Get get_Button2() Address: 596D24
+Private Property Set set_Button2(WithEventsValue) Address: 596D3C
+Private Property Get get_CheckBox6() Address: 596D9C
+Private Property Set set_CheckBox6(WithEventsValue) Address: 596DB4
+Private Property Get get_CheckBox5() Address: 596DC0
+Private Property Set set_CheckBox5(WithEventsValue) Address: 596DD8
+Private Property Get get_DbDataSet() Address: 596DE4
+Private Property Set set_DbDataSet(WithEventsValue) Address: 596DFC
+Private Property Get get_CordinBindingSource() Address: 596E08
+Private Property Set set_CordinBindingSource(WithEventsValue) Address: 596E20
+Private Property Get get_CordinTableAdapter() Address: 596E2C
+Private Property Set set_CordinTableAdapter(WithEventsValue) Address: 596E44
+Private Property Get get_TableAdapterManager() Address: 596E50
+Private Property Set set_TableAdapterManager(WithEventsValue) Address: 596E68
+Private Property Get get_CordinDataGridView() Address: 596E74
+Private Property Set set_CordinDataGridView(WithEventsValue) Address: 596E8C
+Private Property Get get_AltcoordBindingSource() Address: 596F14
+Private Property Set set_AltcoordBindingSource(WithEventsValue) Address: 596F2C
+Private Property Get get_AltcoordTableAdapter() Address: 596F38
+Private Property Set set_AltcoordTableAdapter(WithEventsValue) Address: 596F50
+Private Property Get get_AltcoordDataGridView() Address: 596F5C
+Private Property Set set_AltcoordDataGridView(WithEventsValue) Address: 596F74
+Private Property Get get_EnemiescoordBindingSource() Address: 596F80
+Private Property Set set_EnemiescoordBindingSource(WithEventsValue) Address: 596F98
+Private Property Get get_EnemiescoordTableAdapter() Address: 596FA4
+Private Property Set set_EnemiescoordTableAdapter(WithEventsValue) Address: 596FBC
+Private Property Get get_EnemiescoordDataGridView() Address: 596FC8
+Private Property Set set_EnemiescoordDataGridView(WithEventsValue) Address: 596FE0
+Private Property Get get_FriendscoordBindingSource() Address: 596FEC
+Private Property Set set_FriendscoordBindingSource(WithEventsValue) Address: 597004
+Private Property Get get_FriendscoordTableAdapter() Address: 597010
+Private Property Set set_FriendscoordTableAdapter(WithEventsValue) Address: 597028
+Private Property Get get_FriendscoordDataGridView() Address: 597034
+Private Property Set set_FriendscoordDataGridView(WithEventsValue) Address: 59704C
+Private Property Get get_NeutralcoordBindingSource() Address: 597058
+Private Property Set set_NeutralcoordBindingSource(WithEventsValue) Address: 597070
+Private Property Get get_NeutralcoordTableAdapter() Address: 59707C
+Private Property Set set_NeutralcoordTableAdapter(WithEventsValue) Address: 597094
+Private Property Get get_NeutralcoordDataGridView() Address: 5970A0
+Private Property Set set_NeutralcoordDataGridView(WithEventsValue) Address: 5970B8
+Private Property Get get_FieldTableAdapter() Address: 5970C4
+Private Property Set set_FieldTableAdapter(WithEventsValue) Address: 5970DC
+Private Property Get get_FieldBindingSource() Address: 5970E8
+Private Property Set set_FieldBindingSource(WithEventsValue) Address: 597100
+Private Property Get get_FlatsTableAdapter() Address: 59710C
+Private Property Set set_FlatsTableAdapter(WithEventsValue) Address: 597124
+Private Property Get get_FieldDataGridView() Address: 597130
+Private Property Set set_FieldDataGridView(WithEventsValue) Address: 597148
+Private Property Get get_DataGridViewTextBoxColumn30() Address: 597154
+Private Property Set set_DataGridViewTextBoxColumn30(WithEventsValue) Address: 59716C
+Private Property Get get_DataGridViewTextBoxColumn31() Address: 597178
+Private Property Set set_DataGridViewTextBoxColumn31(WithEventsValue) Address: 597190
+Private Property Get get_DataGridViewTextBoxColumn32() Address: 59719C
+Private Property Set set_DataGridViewTextBoxColumn32(WithEventsValue) Address: 5971B4
+Private Property Get get_DataGridViewTextBoxColumn33() Address: 5971C0
+Private Property Set set_DataGridViewTextBoxColumn33(WithEventsValue) Address: 5971D8
+Private Property Get get_DataGridViewTextBoxColumn34() Address: 5971E4
+Private Property Set set_DataGridViewTextBoxColumn34(WithEventsValue) Address: 5971FC
+Private Property Get get_FlatsBindingSource() Address: 597208
+Private Property Set set_FlatsBindingSource(WithEventsValue) Address: 597220
+Private Property Get get_NpcTableAdapter() Address: 59722C
+Private Property Set set_NpcTableAdapter(WithEventsValue) Address: 597244
+Private Property Get get_FlatsDataGridView() Address: 597250
+Private Property Set set_FlatsDataGridView(WithEventsValue) Address: 597268
+Private Property Get get_DataGridViewTextBoxColumn35() Address: 597274
+Private Property Set set_DataGridViewTextBoxColumn35(WithEventsValue) Address: 59728C
+Private Property Get get_DataGridViewTextBoxColumn36() Address: 597298
+Private Property Set set_DataGridViewTextBoxColumn36(WithEventsValue) Address: 5972B0
+Private Property Get get_DataGridViewTextBoxColumn37() Address: 5972BC
+Private Property Set set_DataGridViewTextBoxColumn37(WithEventsValue) Address: 5972D4
+Private Property Get get_DataGridViewTextBoxColumn38() Address: 5972E0
+Private Property Set set_DataGridViewTextBoxColumn38(WithEventsValue) Address: 5972F8
+Private Property Get get_NpcBindingSource() Address: 597304
+Private Property Set set_NpcBindingSource(WithEventsValue) Address: 59731C
+Private Property Get get_NpcDataGridView() Address: 597328
+Private Property Set set_NpcDataGridView(WithEventsValue) Address: 597340
+Private Property Get get_DataGridViewTextBoxColumn39() Address: 59734C
+Private Property Set set_DataGridViewTextBoxColumn39(WithEventsValue) Address: 597364
+Private Property Get get_DataGridViewTextBoxColumn40() Address: 597370
+Private Property Set set_DataGridViewTextBoxColumn40(WithEventsValue) Address: 597388
+Private Property Get get_DataGridViewTextBoxColumn41() Address: 597394
+Private Property Set set_DataGridViewTextBoxColumn41(WithEventsValue) Address: 5973AC
+Private Property Get get_DataGridViewTextBoxColumn42() Address: 5973B8
+Private Property Set set_DataGridViewTextBoxColumn42(WithEventsValue) Address: 5973D0
+Private Property Get get_Button7() Address: 5973DC
+Private Property Set set_Button7(WithEventsValue) Address: 5973F4
+Private Property Get get_Button6() Address: 597454
+Private Property Set set_Button6(WithEventsValue) Address: 59746C
+Private Property Get get_GroupBox1() Address: 5974CC
+Private Property Set set_GroupBox1(WithEventsValue) Address: 5974E4
+Private Property Get get_RadioButton1() Address: 5974F0
+Private Property Set set_RadioButton1(WithEventsValue) Address: 597508
+Private Property Get get_TextBox1() Address: 597514
+Private Property Set set_TextBox1(WithEventsValue) Address: 59752C
+Private Property Get get_RadioButton2() Address: 59758C
+Private Property Set set_RadioButton2(WithEventsValue) Address: 5975A4
+Private Property Get get_DataGridViewTextBoxColumn3() Address: 5975B0
+Private Property Set set_DataGridViewTextBoxColumn3(WithEventsValue) Address: 5975C8
+Private Property Get get_DataGridViewTextBoxColumn4() Address: 5975D4
+Private Property Set set_DataGridViewTextBoxColumn4(WithEventsValue) Address: 5975EC
+Private Property Get get_DataGridViewTextBoxColumn5() Address: 5975F8
+Private Property Set set_DataGridViewTextBoxColumn5(WithEventsValue) Address: 597610
+Private Property Get get_DataGridViewTextBoxColumn2() Address: 59761C
+Private Property Set set_DataGridViewTextBoxColumn2(WithEventsValue) Address: 597634
+Private Property Get get_DataGridViewTextBoxColumn1() Address: 597640
+Private Property Set set_DataGridViewTextBoxColumn1(WithEventsValue) Address: 597658
+Private Property Get get_DataGridViewTextBoxColumn6() Address: 597664
+Private Property Set set_DataGridViewTextBoxColumn6(WithEventsValue) Address: 59767C
+Private Property Get get_Button5() Address: 597688
+Private Property Set set_Button5(WithEventsValue) Address: 5976A0
+Private Property Get get_Button4() Address: 597700
+Private Property Set set_Button4(WithEventsValue) Address: 597718
+Private Property Get get_Button3() Address: 597778
+Private Property Set set_Button3(WithEventsValue) Address: 597790
+Private Property Get get_DataGridViewTextBoxColumn8() Address: 5977F0
+Private Property Set set_DataGridViewTextBoxColumn8(WithEventsValue) Address: 597808
+Private Property Get get_DataGridViewTextBoxColumn9() Address: 597814
+Private Property Set set_DataGridViewTextBoxColumn9(WithEventsValue) Address: 59782C
+Private Property Get get_DataGridViewTextBoxColumn10() Address: 597838
+Private Property Set set_DataGridViewTextBoxColumn10(WithEventsValue) Address: 597850
+Private Property Get get_DataGridViewTextBoxColumn11() Address: 59785C
+Private Property Set set_DataGridViewTextBoxColumn11(WithEventsValue) Address: 597874
+Private Property Get get_DataGridViewTextBoxColumn12() Address: 597880
+Private Property Set set_DataGridViewTextBoxColumn12(WithEventsValue) Address: 597898
+Private Property Get get_DataGridViewTextBoxColumn7() Address: 5978A4
+Private Property Set set_DataGridViewTextBoxColumn7(WithEventsValue) Address: 5978BC
+Private Property Get get_DataGridViewTextBoxColumn14() Address: 5978C8
+Private Property Set set_DataGridViewTextBoxColumn14(WithEventsValue) Address: 5978E0
+Private Property Get get_DataGridViewTextBoxColumn15() Address: 5978EC
+Private Property Set set_DataGridViewTextBoxColumn15(WithEventsValue) Address: 597904
+Private Property Get get_DataGridViewTextBoxColumn16() Address: 597910
+Private Property Set set_DataGridViewTextBoxColumn16(WithEventsValue) Address: 597928
+Private Property Get get_DataGridViewTextBoxColumn17() Address: 597934
+Private Property Set set_DataGridViewTextBoxColumn17(WithEventsValue) Address: 59794C
+Private Property Get get_DataGridViewTextBoxColumn18() Address: 597958
+Private Property Set set_DataGridViewTextBoxColumn18(WithEventsValue) Address: 597970
+Private Property Get get_DataGridViewTextBoxColumn13() Address: 59797C
+Private Property Set set_DataGridViewTextBoxColumn13(WithEventsValue) Address: 597994
+Private Property Get get_DataGridViewTextBoxColumn20() Address: 5979A0
+Private Property Set set_DataGridViewTextBoxColumn20(WithEventsValue) Address: 5979B8
+Private Property Get get_DataGridViewTextBoxColumn21() Address: 5979C4
+Private Property Set set_DataGridViewTextBoxColumn21(WithEventsValue) Address: 5979DC
+Private Property Get get_DataGridViewTextBoxColumn22() Address: 5979E8
+Private Property Set set_DataGridViewTextBoxColumn22(WithEventsValue) Address: 597A00
+Private Property Get get_DataGridViewTextBoxColumn23() Address: 597A0C
+Private Property Set set_DataGridViewTextBoxColumn23(WithEventsValue) Address: 597A24
+Private Property Get get_DataGridViewTextBoxColumn24() Address: 597A30
+Private Property Set set_DataGridViewTextBoxColumn24(WithEventsValue) Address: 597A48
+Private Property Get get_DataGridViewTextBoxColumn19() Address: 597A54
+Private Property Set set_DataGridViewTextBoxColumn19(WithEventsValue) Address: 597A6C
+Private Property Get get_DataGridViewTextBoxColumn26() Address: 597A78
+Private Property Set set_DataGridViewTextBoxColumn26(WithEventsValue) Address: 597A90
+Private Property Get get_DataGridViewTextBoxColumn27() Address: 597A9C
+Private Property Set set_DataGridViewTextBoxColumn27(WithEventsValue) Address: 597AB4
+Private Property Get get_DataGridViewTextBoxColumn28() Address: 597AC0
+Private Property Set set_DataGridViewTextBoxColumn28(WithEventsValue) Address: 597AD8
+Private Property Get get_DataGridViewTextBoxColumn29() Address: 597AE4
+Private Property Set set_DataGridViewTextBoxColumn29(WithEventsValue) Address: 597AFC
+Private Property Get get_DataGridViewTextBoxColumn25() Address: 597B08
+Private Property Set set_DataGridViewTextBoxColumn25(WithEventsValue) Address: 597B20
+Private Property Get get_ColorDialog1() Address: 597B2C
+Private Property Set set_ColorDialog1(WithEventsValue) Address: 597B44
+Private Property Get get_GroupBox4() Address: 597B50
+Private Property Set set_GroupBox4(WithEventsValue) Address: 597B68
+Private Property Get get_Panel2() Address: 597B74
+Private Property Set set_Panel2(WithEventsValue) Address: 597B8C
+Private Function PictureBox1_Click(sender, str_186) Address: 597B98
+Private Function map_Load(sender, str_186) Address: 597B9C
+Private Function Button1_Click(sender, str_186) Address: 597BC0
+Private Function Button2_Click(sender, str_186) Address: 5982D4
+Private Function CordinBindingNavigatorSaveItem_Click(sender, str_186) Address: 5989D0
+Private Function TextBox1_TextChanged(sender, str_186) Address: 5989FC
+Private Function CordinDataGridView_CellContentClick(sender, str_186) Address: 598ACC
+Private Function CordinDataGridView_CellFormatting(sender, str_186) Address: 598AD0
+Private Function Button3_Click(sender, str_186) Address: 598B0C
+Private Function Button4_Click(sender, str_186) Address: 598CD0
+Private Function Button5_Click(sender, str_186) Address: 598D3C
+Private Function Button6_Click(sender, str_186) Address: 598D74
+Private Function Button7_Click(sender, str_186) Address: 598DB8
+
+Object: vscan.My.Resources.Resources
+Private Property Get get_ResourceManager() Address: 588F68
+Private Property Get get_Culture() Address: 588FB0
+Private Property Set set_Culture(Value) Address: 588FC8
+Private Property Get get_ebaybot() Address: 588FD4
+Private Property Get get_map() Address: 589008
+
+Object: vscan.My.MySettings
+Private Sub .cctor() Address: 58903C
+Public Sub .ctor() Address: 589064
+Private Function AutoSaveSettings(sender, str_186) Address: 589070
+Public Property Get get_Default() Address: 58909C
+Public Property Get get_dbConnectionString() Address: 589128
+
+Object: vscan.My.MySettingsProperty
+Private Property Get get_Settings() Address: 58914C
+
+Object: vscan.player
+Private Sub .cctor() Address: 598DFC
+Public Sub .ctor() Address: 598E0C
+Private Function __ENCAddToList(value) Address: 598E38
+Function Dispose(disposing) Address: 598F48
+Private Sub InitializeComponent() Address: 598F98
+Private Property Get get_Label7() Address: 599F34
+Private Property Set set_Label7(WithEventsValue) Address: 599F4C
+Private Property Get get_Label6() Address: 599F58
+Private Property Set set_Label6(WithEventsValue) Address: 599F70
+Private Property Get get_Label5() Address: 599F7C
+Private Property Set set_Label5(WithEventsValue) Address: 599F94
+Private Property Get get_Label4() Address: 599FA0
+Private Property Set set_Label4(WithEventsValue) Address: 599FB8
+Private Property Get get_Label2() Address: 599FC4
+Private Property Set set_Label2(WithEventsValue) Address: 599FDC
+Private Property Get get_Label1() Address: 599FE8
+Private Property Set set_Label1(WithEventsValue) Address: 59A000
+Private Property Get get_Label3() Address: 59A00C
+Private Property Set set_Label3(WithEventsValue) Address: 59A024
+Private Property Get get_Button1() Address: 59A030
+Private Property Set set_Button1(WithEventsValue) Address: 59A048
+Private Property Get get_DbDataSet() Address: 59A0A8
+Private Property Set set_DbDataSet(WithEventsValue) Address: 59A0C0
+Private Property Get get_CordinBindingSource() Address: 59A0CC
+Private Property Set set_CordinBindingSource(WithEventsValue) Address: 59A0E4
+Private Property Get get_CordinTableAdapter() Address: 59A0F0
+Private Property Set set_CordinTableAdapter(WithEventsValue) Address: 59A108
+Private Property Get get_TableAdapterManager() Address: 59A114
+Private Property Set set_TableAdapterManager(WithEventsValue) Address: 59A12C
+Private Property Get get_CordinDataGridView() Address: 59A138
+Private Property Set set_CordinDataGridView(WithEventsValue) Address: 59A150
+Private Property Get get_DataGridViewTextBoxColumn3() Address: 59A1B0
+Private Property Set set_DataGridViewTextBoxColumn3(WithEventsValue) Address: 59A1C8
+Private Property Get get_DataGridViewTextBoxColumn4() Address: 59A1D4
+Private Property Set set_DataGridViewTextBoxColumn4(WithEventsValue) Address: 59A1EC
+Private Property Get get_DataGridViewTextBoxColumn5() Address: 59A1F8
+Private Property Set set_DataGridViewTextBoxColumn5(WithEventsValue) Address: 59A210
+Private Property Get get_DataGridViewTextBoxColumn2() Address: 59A21C
+Private Property Set set_DataGridViewTextBoxColumn2(WithEventsValue) Address: 59A234
+Private Property Get get_DataGridViewTextBoxColumn1() Address: 59A240
+Private Property Set set_DataGridViewTextBoxColumn1(WithEventsValue) Address: 59A258
+Private Property Get get_DataGridViewTextBoxColumn6() Address: 59A264
+Private Property Set set_DataGridViewTextBoxColumn6(WithEventsValue) Address: 59A27C
+Private Property Get get_Hero_allianceBindingSource() Address: 59A288
+Private Property Set set_Hero_allianceBindingSource(WithEventsValue) Address: 59A2A0
+Private Property Get get_Hero_allianceTableAdapter() Address: 59A2AC
+Private Property Set set_Hero_allianceTableAdapter(WithEventsValue) Address: 59A2C4
+Private Property Get get_Hero_allianceDataGridView() Address: 59A2D0
+Private Property Set set_Hero_allianceDataGridView(WithEventsValue) Address: 59A2E8
+Private Property Get get_DataGridViewTextBoxColumn7() Address: 59A370
+Private Property Set set_DataGridViewTextBoxColumn7(WithEventsValue) Address: 59A388
+Private Property Get get_DataGridViewTextBoxColumn8() Address: 59A394
+Private Property Set set_DataGridViewTextBoxColumn8(WithEventsValue) Address: 59A3AC
+Private Property Get get_DataGridViewTextBoxColumn11() Address: 59A3B8
+Private Property Set set_DataGridViewTextBoxColumn11(WithEventsValue) Address: 59A3D0
+Private Property Get get_DataGridViewTextBoxColumn12() Address: 59A3DC
+Private Property Set set_DataGridViewTextBoxColumn12(WithEventsValue) Address: 59A3F4
+Private Property Get get_DataGridViewTextBoxColumn13() Address: 59A400
+Private Property Set set_DataGridViewTextBoxColumn13(WithEventsValue) Address: 59A418
+Private Property Get get_DataGridViewTextBoxColumn14() Address: 59A424
+Private Property Set set_DataGridViewTextBoxColumn14(WithEventsValue) Address: 59A43C
+Private Property Get get_DataGridViewTextBoxColumn10() Address: 59A448
+Private Property Set set_DataGridViewTextBoxColumn10(WithEventsValue) Address: 59A460
+Private Property Get get_DataGridViewTextBoxColumn9() Address: 59A46C
+Private Property Set set_DataGridViewTextBoxColumn9(WithEventsValue) Address: 59A484
+Private Function CordinBindingNavigatorSaveItem_Click(sender, str_186) Address: 59A490
+Private Function player_Load(sender, str_186) Address: 59A4BC
+Private Function CordinDataGridView_CellFormatting(sender, str_186) Address: 59A510
+Private Function Hero_allianceDataGridView_CellContentClick(sender, str_186) Address: 59A54C
+Private Function Hero_allianceDataGridView_CellFormatting(sender, str_186) Address: 59A550
+Private Function Button1_Click(sender, str_186) Address: 59A58C
+
+Object: vscan.SystemInfoForm
+Private Sub .cctor() Address: 59A7A0
+Public Sub .ctor() Address: 59A7B0
+Private Function __ENCAddToList(value) Address: 59A7DC
+Function Dispose(disposing) Address: 59A8EC
+Private Sub InitializeComponent() Address: 59A93C
+Private Property Get get_cmdOK() Address: 59ABB8
+Private Property Set set_cmdOK(WithEventsValue) Address: 59ABD0
+Private Property Get get_txtSystemInfo() Address: 59ABDC
+Private Property Set set_txtSystemInfo(WithEventsValue) Address: 59ABF4
+Private Property Get get_label1() Address: 59AC00
+Private Property Set set_label1(WithEventsValue) Address: 59AC18
+Public Property Set set_License(value) Address: 59AC24
+Private Function SystemInfoForm_Load(sender, str_186) Address: 59AC3C
+
+Object: vscan.Vscaner
+Private Function __ENCAddToList(value) Address: 589164
+Function Dispose(disposing) Address: 589274
+Private Sub InitializeComponent() Address: 5892C4
+Private Property Get get_VisualStyler1() Address: 58EC3C
+Private Property Set set_VisualStyler1(WithEventsValue) Address: 58EC54
+Private Property Get get_TabControl1() Address: 58EC60
+Private Property Set set_TabControl1(WithEventsValue) Address: 58EC78
+Private Property Get get_TabPage1() Address: 58EC84
+Private Property Set set_TabPage1(WithEventsValue) Address: 58EC9C
+Private Property Get get_Label8() Address: 58ECA8
+Private Property Set set_Label8(WithEventsValue) Address: 58ECC0
+Private Property Get get_Label7() Address: 58ED20
+Private Property Set set_Label7(WithEventsValue) Address: 58ED38
+Private Property Get get_Button1() Address: 58ED98
+Private Property Set set_Button1(WithEventsValue) Address: 58EDB0
+Private Property Get get_Label6() Address: 58EE10
+Private Property Set set_Label6(WithEventsValue) Address: 58EE28
+Private Property Get get_Label5() Address: 58EE34
+Private Property Set set_Label5(WithEventsValue) Address: 58EE4C
+Private Property Get get_Label4() Address: 58EE58
+Private Property Set set_Label4(WithEventsValue) Address: 58EE70
+Private Property Get get_Label3() Address: 58EE7C
+Private Property Set set_Label3(WithEventsValue) Address: 58EE94
+Private Property Get get_Label2() Address: 58EEA0
+Private Property Set set_Label2(WithEventsValue) Address: 58EEB8
+Private Property Get get_Label1() Address: 58EEC4
+Private Property Set set_Label1(WithEventsValue) Address: 58EEDC
+Private Property Get get_TextBox5() Address: 58EEE8
+Private Property Set set_TextBox5(WithEventsValue) Address: 58EF00
+Private Property Get get_TextBox6() Address: 58EF0C
+Private Property Set set_TextBox6(WithEventsValue) Address: 58EF24
+Private Property Get get_TextBox7() Address: 58EF30
+Private Property Set set_TextBox7(WithEventsValue) Address: 58EF48
+Private Property Get get_TextBox4() Address: 58EF54
+Private Property Set set_TextBox4(WithEventsValue) Address: 58EF6C
+Private Property Get get_TextBox3() Address: 58EFCC
+Private Property Set set_TextBox3(WithEventsValue) Address: 58EFE4
+Private Property Get get_TextBox2() Address: 58F044
+Private Property Set set_TextBox2(WithEventsValue) Address: 58F05C
+Private Property Get get_TextBox1() Address: 58F0BC
+Private Property Set set_TextBox1(WithEventsValue) Address: 58F0D4
+Private Property Get get_AxShockwaveFlash1() Address: 58F134
+Private Property Set set_AxShockwaveFlash1(WithEventsValue) Address: 58F14C
+Private Property Get get_TabPage2() Address: 58F1AC
+Private Property Set set_TabPage2(WithEventsValue) Address: 58F1C4
+Private Property Get get_TabPage3() Address: 58F1D0
+Private Property Set set_TabPage3(WithEventsValue) Address: 58F1E8
+Private Property Get get_MenuStrip1() Address: 58F1F4
+Private Property Set set_MenuStrip1(WithEventsValue) Address: 58F20C
+Private Property Get get_HelpToolStripMenuItem() Address: 58F218
+Private Property Set set_HelpToolStripMenuItem(WithEventsValue) Address: 58F230
+Private Property Get get_Button5() Address: 58F23C
+Private Property Set set_Button5(WithEventsValue) Address: 58F254
+Private Property Get get_Button3() Address: 58F2B4
+Private Property Set set_Button3(WithEventsValue) Address: 58F2CC
+Private Property Get get_GroupBox1() Address: 58F32C
+Private Property Set set_GroupBox1(WithEventsValue) Address: 58F344
+Private Property Get get_TextBox9() Address: 58F350
+Private Property Set set_TextBox9(WithEventsValue) Address: 58F368
+Private Property Get get_RadioButton4() Address: 58F3C8
+Private Property Set set_RadioButton4(WithEventsValue) Address: 58F3E0
+Private Property Get get_RadioButton3() Address: 58F3EC
+Private Property Set set_RadioButton3(WithEventsValue) Address: 58F404
+Private Property Get get_RadioButton2() Address: 58F410
+Private Property Set set_RadioButton2(WithEventsValue) Address: 58F428
+Private Property Get get_RadioButton1() Address: 58F434
+Private Property Set set_RadioButton1(WithEventsValue) Address: 58F44C
+Private Property Get get_Button6() Address: 58F458
+Private Property Set set_Button6(WithEventsValue) Address: 58F470
+Private Property Get get_Button7() Address: 58F4D0
+Private Property Set set_Button7(WithEventsValue) Address: 58F4E8
+Private Property Get get_GroupBox2() Address: 58F548
+Private Property Set set_GroupBox2(WithEventsValue) Address: 58F560
+Private Property Get get_Button4() Address: 58F56C
+Private Property Set set_Button4(WithEventsValue) Address: 58F584
+Private Property Get get_TextBox8() Address: 58F5E4
+Private Property Set set_TextBox8(WithEventsValue) Address: 58F5FC
+Private Property Get get_RadioButton7() Address: 58F608
+Private Property Set set_RadioButton7(WithEventsValue) Address: 58F620
+Private Property Get get_RadioButton6() Address: 58F62C
+Private Property Set set_RadioButton6(WithEventsValue) Address: 58F644
+Private Property Get get_RadioButton5() Address: 58F650
+Private Property Set set_RadioButton5(WithEventsValue) Address: 58F668
+Private Property Get get_TabPage4() Address: 58F674
+Private Property Set set_TabPage4(WithEventsValue) Address: 58F68C
+Private Property Get get_TabControl2() Address: 58F698
+Private Property Set set_TabControl2(WithEventsValue) Address: 58F6B0
+Private Property Get get_TabPage5() Address: 58F6BC
+Private Property Set set_TabPage5(WithEventsValue) Address: 58F6D4
+Private Property Get get_TabPage6() Address: 58F6E0
+Private Property Set set_TabPage6(WithEventsValue) Address: 58F6F8
+Private Property Get get_TabPage7() Address: 58F704
+Private Property Set set_TabPage7(WithEventsValue) Address: 58F71C
+Private Property Get get_TabPage8() Address: 58F728
+Private Property Set set_TabPage8(WithEventsValue) Address: 58F740
+Private Property Get get_Label14() Address: 58F74C
+Private Property Set set_Label14(WithEventsValue) Address: 58F764
+Private Property Get get_Label13() Address: 58F770
+Private Property Set set_Label13(WithEventsValue) Address: 58F788
+Private Property Get get_Label12() Address: 58F794
+Private Property Set set_Label12(WithEventsValue) Address: 58F7AC
+Private Property Get get_Label11() Address: 58F7B8
+Private Property Set set_Label11(WithEventsValue) Address: 58F7D0
+Private Property Get get_Label9() Address: 58F7DC
+Private Property Set set_Label9(WithEventsValue) Address: 58F7F4
+Private Property Get get_Label10() Address: 58F800
+Private Property Set set_Label10(WithEventsValue) Address: 58F818
+Private Property Get get_Label16() Address: 58F824
+Private Property Set set_Label16(WithEventsValue) Address: 58F83C
+Private Property Get get_Label15() Address: 58F848
+Private Property Set set_Label15(WithEventsValue) Address: 58F860
+Private Property Get get_ProgressBar1() Address: 58F86C
+Private Property Set set_ProgressBar1(WithEventsValue) Address: 58F884
+Private Property Get get_Label20() Address: 58F890
+Private Property Set set_Label20(WithEventsValue) Address: 58F8A8
+Private Property Get get_Label19() Address: 58F8B4
+Private Property Set set_Label19(WithEventsValue) Address: 58F8CC
+Private Property Get get_Label18() Address: 58F8D8
+Private Property Set set_Label18(WithEventsValue) Address: 58F8F0
+Private Property Get get_Label17() Address: 58F8FC
+Private Property Set set_Label17(WithEventsValue) Address: 58F914
+Private Property Get get_Timer1() Address: 58F920
+Private Property Set set_Timer1(WithEventsValue) Address: 58F938
+Private Property Get get_CordinBindingSource() Address: 58F944
+Private Property Set set_CordinBindingSource(WithEventsValue) Address: 58F95C
+Private Property Get get_DbDataSet() Address: 58F968
+Private Property Set set_DbDataSet(WithEventsValue) Address: 58F980
+Private Property Get get_CordinTableAdapter() Address: 58F98C
+Private Property Set set_CordinTableAdapter(WithEventsValue) Address: 58F9A4
+Private Property Get get_TableAdapterManager() Address: 58F9B0
+Private Property Set set_TableAdapterManager(WithEventsValue) Address: 58F9C8
+Private Property Get get_CordinDataGridView() Address: 58F9D4
+Private Property Set set_CordinDataGridView(WithEventsValue) Address: 58F9EC
+Private Property Get get_DataGridViewTextBoxColumn3() Address: 58FA4C
+Private Property Set set_DataGridViewTextBoxColumn3(WithEventsValue) Address: 58FA64
+Private Property Get get_DataGridViewTextBoxColumn4() Address: 58FA70
+Private Property Set set_DataGridViewTextBoxColumn4(WithEventsValue) Address: 58FA88
+Private Property Get get_DataGridViewTextBoxColumn5() Address: 58FA94
+Private Property Set set_DataGridViewTextBoxColumn5(WithEventsValue) Address: 58FAAC
+Private Property Get get_DataGridViewTextBoxColumn2() Address: 58FAB8
+Private Property Set set_DataGridViewTextBoxColumn2(WithEventsValue) Address: 58FAD0
+Private Property Get get_DataGridViewTextBoxColumn1() Address: 58FADC
+Private Property Set set_DataGridViewTextBoxColumn1(WithEventsValue) Address: 58FAF4
+Private Property Get get_DataGridViewTextBoxColumn6() Address: 58FB00
+Private Property Set set_DataGridViewTextBoxColumn6(WithEventsValue) Address: 58FB18
+Private Property Get get_Hero_allianceBindingSource() Address: 58FB24
+Private Property Set set_Hero_allianceBindingSource(WithEventsValue) Address: 58FB3C
+Private Property Get get_Hero_allianceTableAdapter() Address: 58FB48
+Private Property Set set_Hero_allianceTableAdapter(WithEventsValue) Address: 58FB60
+Private Property Get get_Hero_allianceDataGridView() Address: 58FB6C
+Private Property Set set_Hero_allianceDataGridView(WithEventsValue) Address: 58FB84
+Private Property Get get_DataGridViewTextBoxColumn7() Address: 58FBE4
+Private Property Set set_DataGridViewTextBoxColumn7(WithEventsValue) Address: 58FBFC
+Private Property Get get_DataGridViewTextBoxColumn8() Address: 58FC08
+Private Property Set set_DataGridViewTextBoxColumn8(WithEventsValue) Address: 58FC20
+Private Property Get get_DataGridViewTextBoxColumn9() Address: 58FC2C
+Private Property Set set_DataGridViewTextBoxColumn9(WithEventsValue) Address: 58FC44
+Private Property Get get_DataGridViewTextBoxColumn10() Address: 58FC50
+Private Property Set set_DataGridViewTextBoxColumn10(WithEventsValue) Address: 58FC68
+Private Property Get get_DataGridViewTextBoxColumn11() Address: 58FC74
+Private Property Set set_DataGridViewTextBoxColumn11(WithEventsValue) Address: 58FC8C
+Private Property Get get_DataGridViewTextBoxColumn12() Address: 58FC98
+Private Property Set set_DataGridViewTextBoxColumn12(WithEventsValue) Address: 58FCB0
+Private Property Get get_DataGridViewTextBoxColumn13() Address: 58FCBC
+Private Property Set set_DataGridViewTextBoxColumn13(WithEventsValue) Address: 58FCD4
+Private Property Get get_DataGridViewTextBoxColumn14() Address: 58FCE0
+Private Property Set set_DataGridViewTextBoxColumn14(WithEventsValue) Address: 58FCF8
+Private Property Get get_Button2() Address: 58FD04
+Private Property Set set_Button2(WithEventsValue) Address: 58FD1C
+Private Property Get get_Button8() Address: 58FD7C
+Private Property Set set_Button8(WithEventsValue) Address: 58FD94
+Private Property Get get_Button9() Address: 58FDF4
+Private Property Set set_Button9(WithEventsValue) Address: 58FE0C
+Private Property Get get_AltBindingSource() Address: 58FE6C
+Private Property Set set_AltBindingSource(WithEventsValue) Address: 58FE84
+Private Property Get get_AltTableAdapter() Address: 58FE90
+Private Property Set set_AltTableAdapter(WithEventsValue) Address: 58FEA8
+Private Property Get get_AltDataGridView() Address: 58FEB4
+Private Property Set set_AltDataGridView(WithEventsValue) Address: 58FECC
+Private Property Get get_AltcoordBindingSource() Address: 58FF2C
+Private Property Set set_AltcoordBindingSource(WithEventsValue) Address: 58FF44
+Private Property Get get_AltcoordTableAdapter() Address: 58FF50
+Private Property Set set_AltcoordTableAdapter(WithEventsValue) Address: 58FF68
+Private Property Get get_AltcoordDataGridView() Address: 58FF74
+Private Property Set set_AltcoordDataGridView(WithEventsValue) Address: 58FF8C
+Private Property Get get_DataGridViewTextBoxColumn23() Address: 58FFEC
+Private Property Set set_DataGridViewTextBoxColumn23(WithEventsValue) Address: 590004
+Private Property Get get_DataGridViewTextBoxColumn24() Address: 590010
+Private Property Set set_DataGridViewTextBoxColumn24(WithEventsValue) Address: 590028
+Private Property Get get_DataGridViewTextBoxColumn25() Address: 590034
+Private Property Set set_DataGridViewTextBoxColumn25(WithEventsValue) Address: 59004C
+Private Property Get get_DataGridViewTextBoxColumn21() Address: 590058
+Private Property Set set_DataGridViewTextBoxColumn21(WithEventsValue) Address: 590070
+Private Property Get get_DataGridViewTextBoxColumn22() Address: 59007C
+Private Property Set set_DataGridViewTextBoxColumn22(WithEventsValue) Address: 590094
+Private Property Get get_DataGridViewTextBoxColumn20() Address: 5900A0
+Private Property Set set_DataGridViewTextBoxColumn20(WithEventsValue) Address: 5900B8
+Private Property Get get_DataGridViewTextBoxColumn17() Address: 5900C4
+Private Property Set set_DataGridViewTextBoxColumn17(WithEventsValue) Address: 5900DC
+Private Property Get get_DataGridViewTextBoxColumn16() Address: 5900E8
+Private Property Set set_DataGridViewTextBoxColumn16(WithEventsValue) Address: 590100
+Private Property Get get_DataGridViewTextBoxColumn18() Address: 59010C
+Private Property Set set_DataGridViewTextBoxColumn18(WithEventsValue) Address: 590124
+Private Property Get get_DataGridViewTextBoxColumn19() Address: 590130
+Private Property Set set_DataGridViewTextBoxColumn19(WithEventsValue) Address: 590148
+Private Property Get get_DataGridViewTextBoxColumn15() Address: 590154
+Private Property Set set_DataGridViewTextBoxColumn15(WithEventsValue) Address: 59016C
+Private Property Get get_Button11() Address: 590178
+Private Property Set set_Button11(WithEventsValue) Address: 590190
+Private Property Get get_Button10() Address: 5901F0
+Private Property Set set_Button10(WithEventsValue) Address: 590208
+Private Property Get get_FriendsBindingSource() Address: 590268
+Private Property Set set_FriendsBindingSource(WithEventsValue) Address: 590280
+Private Property Get get_FriendsTableAdapter() Address: 59028C
+Private Property Set set_FriendsTableAdapter(WithEventsValue) Address: 5902A4
+Private Property Get get_FriendsDataGridView() Address: 5902B0
+Private Property Set set_FriendsDataGridView(WithEventsValue) Address: 5902C8
+Private Property Get get_FriendscoordBindingSource() Address: 590328
+Private Property Set set_FriendscoordBindingSource(WithEventsValue) Address: 590340
+Private Property Get get_FriendscoordTableAdapter() Address: 59034C
+Private Property Set set_FriendscoordTableAdapter(WithEventsValue) Address: 590364
+Private Property Get get_Button12() Address: 590370
+Private Property Set set_Button12(WithEventsValue) Address: 590388
+Private Property Get get_Button13() Address: 5903E8
+Private Property Set set_Button13(WithEventsValue) Address: 590400
+Private Property Get get_FriendscoordDataGridView() Address: 590460
+Private Property Set set_FriendscoordDataGridView(WithEventsValue) Address: 590478
+Private Property Get get_Button14() Address: 5904D8
+Private Property Set set_Button14(WithEventsValue) Address: 5904F0
+Private Property Get get_Button15() Address: 590550
+Private Property Set set_Button15(WithEventsValue) Address: 590568
+Private Property Get get_Button16() Address: 5905C8
+Private Property Set set_Button16(WithEventsValue) Address: 5905E0
+Private Property Get get_Button17() Address: 590640
+Private Property Set set_Button17(WithEventsValue) Address: 590658
+Private Property Get get_DataGridViewTextBoxColumn32() Address: 5906B8
+Private Property Set set_DataGridViewTextBoxColumn32(WithEventsValue) Address: 5906D0
+Private Property Get get_DataGridViewTextBoxColumn33() Address: 5906DC
+Private Property Set set_DataGridViewTextBoxColumn33(WithEventsValue) Address: 5906F4
+Private Property Get get_DataGridViewTextBoxColumn36() Address: 590700
+Private Property Set set_DataGridViewTextBoxColumn36(WithEventsValue) Address: 590718
+Private Property Get get_DataGridViewTextBoxColumn34() Address: 590724
+Private Property Set set_DataGridViewTextBoxColumn34(WithEventsValue) Address: 59073C
+Private Property Get get_DataGridViewTextBoxColumn35() Address: 590748
+Private Property Set set_DataGridViewTextBoxColumn35(WithEventsValue) Address: 590760
+Private Property Get get_DataGridViewTextBoxColumn31() Address: 59076C
+Private Property Set set_DataGridViewTextBoxColumn31(WithEventsValue) Address: 590784
+Private Property Get get_DataGridViewTextBoxColumn27() Address: 590790
+Private Property Set set_DataGridViewTextBoxColumn27(WithEventsValue) Address: 5907A8
+Private Property Get get_DataGridViewTextBoxColumn28() Address: 5907B4
+Private Property Set set_DataGridViewTextBoxColumn28(WithEventsValue) Address: 5907CC
+Private Property Get get_DataGridViewTextBoxColumn29() Address: 5907D8
+Private Property Set set_DataGridViewTextBoxColumn29(WithEventsValue) Address: 5907F0
+Private Property Get get_DataGridViewTextBoxColumn30() Address: 5907FC
+Private Property Set set_DataGridViewTextBoxColumn30(WithEventsValue) Address: 590814
+Private Property Get get_DataGridViewTextBoxColumn26() Address: 590820
+Private Property Set set_DataGridViewTextBoxColumn26(WithEventsValue) Address: 590838
+Private Property Get get_EnemiesBindingSource() Address: 590844
+Private Property Set set_EnemiesBindingSource(WithEventsValue) Address: 59085C
+Private Property Get get_EnemiesTableAdapter() Address: 590868
+Private Property Set set_EnemiesTableAdapter(WithEventsValue) Address: 590880
+Private Property Get get_EnemiesDataGridView() Address: 59088C
+Private Property Set set_EnemiesDataGridView(WithEventsValue) Address: 5908A4
+Private Property Get get_EnemiescoordBindingSource() Address: 590904
+Private Property Set set_EnemiescoordBindingSource(WithEventsValue) Address: 59091C
+Private Property Get get_EnemiescoordTableAdapter() Address: 590928
+Private Property Set set_EnemiescoordTableAdapter(WithEventsValue) Address: 590940
+Private Property Get get_EnemiescoordDataGridView() Address: 59094C
+Private Property Set set_EnemiescoordDataGridView(WithEventsValue) Address: 590964
+Private Property Get get_NeutralcoordBindingSource() Address: 5909C4
+Private Property Set set_NeutralcoordBindingSource(WithEventsValue) Address: 5909DC
+Private Property Get get_NeutralcoordTableAdapter() Address: 5909E8
+Private Property Set set_NeutralcoordTableAdapter(WithEventsValue) Address: 590A00
+Private Property Get get_NeutralcoordDataGridView() Address: 590A0C
+Private Property Set set_NeutralcoordDataGridView(WithEventsValue) Address: 590A24
+Private Property Get get_NeutralBindingSource() Address: 590A84
+Private Property Set set_NeutralBindingSource(WithEventsValue) Address: 590A9C
+Private Property Get get_NeutralTableAdapter() Address: 590AA8
+Private Property Set set_NeutralTableAdapter(WithEventsValue) Address: 590AC0
+Private Property Get get_NeutralDataGridView() Address: 590ACC
+Private Property Set set_NeutralDataGridView(WithEventsValue) Address: 590AE4
+Private Property Get get_DataGridViewTextBoxColumn43() Address: 590B44
+Private Property Set set_DataGridViewTextBoxColumn43(WithEventsValue) Address: 590B5C
+Private Property Get get_DataGridViewTextBoxColumn44() Address: 590B68
+Private Property Set set_DataGridViewTextBoxColumn44(WithEventsValue) Address: 590B80
+Private Property Get get_DataGridViewTextBoxColumn47() Address: 590B8C
+Private Property Set set_DataGridViewTextBoxColumn47(WithEventsValue) Address: 590BA4
+Private Property Get get_DataGridViewTextBoxColumn45() Address: 590BB0
+Private Property Set set_DataGridViewTextBoxColumn45(WithEventsValue) Address: 590BC8
+Private Property Get get_DataGridViewTextBoxColumn46() Address: 590BD4
+Private Property Set set_DataGridViewTextBoxColumn46(WithEventsValue) Address: 590BEC
+Private Property Get get_DataGridViewTextBoxColumn42() Address: 590BF8
+Private Property Set set_DataGridViewTextBoxColumn42(WithEventsValue) Address: 590C10
+Private Property Get get_DataGridViewTextBoxColumn38() Address: 590C1C
+Private Property Set set_DataGridViewTextBoxColumn38(WithEventsValue) Address: 590C34
+Private Property Get get_DataGridViewTextBoxColumn39() Address: 590C40
+Private Property Set set_DataGridViewTextBoxColumn39(WithEventsValue) Address: 590C58
+Private Property Get get_DataGridViewTextBoxColumn40() Address: 590C64
+Private Property Set set_DataGridViewTextBoxColumn40(WithEventsValue) Address: 590C7C
+Private Property Get get_DataGridViewTextBoxColumn41() Address: 590C88
+Private Property Set set_DataGridViewTextBoxColumn41(WithEventsValue) Address: 590CA0
+Private Property Get get_DataGridViewTextBoxColumn37() Address: 590CAC
+Private Property Set set_DataGridViewTextBoxColumn37(WithEventsValue) Address: 590CC4
+Private Property Get get_DataGridViewTextBoxColumn54() Address: 590CD0
+Private Property Set set_DataGridViewTextBoxColumn54(WithEventsValue) Address: 590CE8
+Private Property Get get_DataGridViewTextBoxColumn55() Address: 590CF4
+Private Property Set set_DataGridViewTextBoxColumn55(WithEventsValue) Address: 590D0C
+Private Property Get get_DataGridViewTextBoxColumn56() Address: 590D18
+Private Property Set set_DataGridViewTextBoxColumn56(WithEventsValue) Address: 590D30
+Private Property Get get_DataGridViewTextBoxColumn57() Address: 590D3C
+Private Property Set set_DataGridViewTextBoxColumn57(WithEventsValue) Address: 590D54
+Private Property Get get_DataGridViewTextBoxColumn53() Address: 590D60
+Private Property Set set_DataGridViewTextBoxColumn53(WithEventsValue) Address: 590D78
+Private Property Get get_DataGridViewTextBoxColumn49() Address: 590D84
+Private Property Set set_DataGridViewTextBoxColumn49(WithEventsValue) Address: 590D9C
+Private Property Get get_DataGridViewTextBoxColumn50() Address: 590DA8
+Private Property Set set_DataGridViewTextBoxColumn50(WithEventsValue) Address: 590DC0
+Private Property Get get_DataGridViewTextBoxColumn51() Address: 590DCC
+Private Property Set set_DataGridViewTextBoxColumn51(WithEventsValue) Address: 590DE4
+Private Property Get get_DataGridViewTextBoxColumn52() Address: 590DF0
+Private Property Set set_DataGridViewTextBoxColumn52(WithEventsValue) Address: 590E08
+Private Property Get get_DataGridViewTextBoxColumn48() Address: 590E14
+Private Property Set set_DataGridViewTextBoxColumn48(WithEventsValue) Address: 590E2C
+Private Property Get get_ShapeContainer1() Address: 590E38
+Private Property Set set_ShapeContainer1(WithEventsValue) Address: 590E50
+Private Property Get get_RectangleShape1() Address: 590E5C
+Private Property Set set_RectangleShape1(WithEventsValue) Address: 590E74
+Private Property Get get_BuyLicenseToolStripMenuItem() Address: 590E80
+Private Property Set set_BuyLicenseToolStripMenuItem(WithEventsValue) Address: 590E98
+Private Sub .cctor() Address: 590EF8
+Public Sub .ctor() Address: 590F10
+Private Function ProcessException(exc) Address: 590FC8
+Private Sub ConfirmValidation() Address: 591010
+Private Function Vscaner_Load(sender, str_186) Address: 591040
+Private Sub GetCustomerInfo() Address: 591330
+Private Sub InitializeUi() Address: 59139C
+Private Function Button1_Click(sender, str_186) Address: 5913B4
+Private Function Button3_Click(sender, str_186) Address: 5913D4
+Private Function Button5_Click(sender, str_186) Address: 591470
+Private Function AxShockwaveFlash1_FSCommand(sender, str_186) Address: 59148C
+Private Function TextBox2_TextChanged(sender, str_186) Address: 591658
+Private Function TextBox3_TextChanged(sender, str_186) Address: 591680
+Private Function TextBox4_TextChanged(sender, str_186) Address: 5916A8
+Private Function Label7_TextChanged(sender, str_186) Address: 5916D0
+Private Function Label8_TextChanged(sender, str_186) Address: 591E08
+Private Function CordinBindingNavigatorSaveItem_Click(sender, str_186) Address: 5920F8
+Private Function CordinDataGridView_CellFormatting(sender, str_186) Address: 592124
+Private Function TextBox1_DoubleClick(sender, str_186) Address: 592160
+Private Function TextBox9_TextChanged(sender, str_186) Address: 592178
+Private Function Hero_allianceDataGridView_CellFormatting(sender, str_186) Address: 592320
+Private Function Button6_Click(sender, str_186) Address: 59235C
+Private Function Button7_Click(sender, str_186) Address: 592378
+Private Function Button4_Click(sender, str_186) Address: 592414
+Private Function Button2_Click(sender, str_186) Address: 592540
+Private Function Button8_Click(sender, str_186) Address: 592654
+Private Function Button9_Click(sender, str_186) Address: 592778
+Private Function AltcoordDataGridView_CellFormatting(sender, str_186) Address: 592794
+Private Function AltDataGridView_CellFormatting(sender, str_186) Address: 5927D0
+Private Function Button10_Click(sender, str_186) Address: 59280C
+Private Function Button11_Click(sender, str_186) Address: 59284C
+Private Function Button13_Click(sender, str_186) Address: 592874
+Private Function Button12_Click(sender, str_186) Address: 5928B4
+Private Function FriendsDataGridView_CellFormatting(sender, str_186) Address: 5928DC
+Private Function FriendscoordDataGridView_CellFormatting(sender, str_186) Address: 592918
+Private Function Button15_Click(sender, str_186) Address: 592954
+Private Function Button14_Click(sender, str_186) Address: 592994
+Private Function Button16_Click(sender, str_186) Address: 5929BC
+Private Function Button17_Click(sender, str_186) Address: 5929E4
+Private Function NeutralcoordDataGridView_CellFormatting(sender, str_186) Address: 592A24
+Private Function NeutralDataGridView_CellFormatting(sender, str_186) Address: 592A60
+Private Function EnemiesDataGridView_CellFormatting(sender, str_186) Address: 592A9C
+Private Function EnemiescoordDataGridView_CellFormatting(sender, str_186) Address: 592AD8
+Public Property Get get_BaseContainerName() Address: 592B14
+Public Property Get get_BypassExpirationCheck() Address: 592B2C
+Public Property Get get_BypassSignatureForEmbedded() Address: 592B40
+Public Property Get get_DoLoadLicense() Address: 592B54
+Public Property Get get_EmbeddedLicenseAssembly() Address: 592B68
+Public Property Get get_EmbeddedOnly() Address: 592B7C
+Public Property Get get_LicenseFileName() Address: 592B90
+Public Property Get get_LicenseKey() Address: 592BA8
+Public Property Get get_LicenseParameters() Address: 592BC0
+Public Property Get get_MaxContainersNumber() Address: 592BD8
+Public Property Get get_ServiceIndex() Address: 592BEC
+Public Property Get get_UseMachineKeyStore() Address: 592C00
+Public Property Get get_ProtectedStorage() Address: 592C14
+Public Property Get get_UseMachineProtectedStorage() Address: 592C28
+Private Function BuyLicenseToolStripMenuItem_Click(sender, str_186) Address: 592C3C
+Private Function BuyLicenseToolStripMenuItem_Click(str_186) Address: 59AC40
+Private Sub BuyLicenseToolStripMenuItem_Click() Address: 59AD60
+
+Object: -.Vscaner
+Public Sub .ctor() Address: 59AD18
+Public Function .ctor(str_186) Address: 59AD24
+Public Function .ctor(str_186) Address: 59ACC0
+
+Object: -.Vscaner
+Public Function .ctor(TargetObject, TargetMethod) Address: 400000
+Public Function BeginInvoke(DelegateCallback, DelegateAsyncState) Address: 400000
+Public Function EndInvoke(DelegateAsyncResult) Address: 400000
+Public Sub Invoke() Address: 400000
+
+Object: -.Vscaner
+Public Sub .ctor() Address: 59AEAC
+Public Function .ctor(DelegateAsyncResult) Address: 59AEB8
+Public Function .ctor(DelegateAsyncResult) Address: 59AD9C
+
+Object: -.Vscaner
+Public Sub .ctor() Address: 59AEE8
+Public Function .ctor(DelegateAsyncResult) Address: 59AEF4
+Public Sub .ctor() Address: 59ADD8
