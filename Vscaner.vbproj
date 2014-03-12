@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>C20243E9-BEDE-47DB-9A43-C70BE0FDC760</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Vscaner</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Manco.Licensing" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="SkinSoft.VisualStyler" />
+    <Reference Include="AxInterop.ShockwaveFlashObjects" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="VB$AnonymousDelegate_2.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\altcoordTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\altTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\cordinTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\enemiescoordTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\enemiesTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\fieldTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\flatsTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\friendscoordTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\friendsTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\heroTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\hero_allianceTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\huntTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\neutralcoordTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\neutralTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\npcTableAdapter.vb" />
+    <Compile Include="vscan.dbDataSetTableAdapters\TableAdapterManager.vb" />
+    <Compile Include="vscan.My.Resources\Resources.vb" />
+    <Compile Include="vscan.My\InternalXmlHelper.vb" />
+    <Compile Include="vscan.My\MyApplication.vb" />
+    <Compile Include="vscan.My\MyComputer.vb" />
+    <Compile Include="vscan.My\MyProject.vb" />
+    <Compile Include="vscan.My\MySettings.vb" />
+    <Compile Include="vscan.My\MySettingsProperty.vb" />
+    <Compile Include="vscan\dbDataSet.vb" />
+    <Compile Include="vscan\LicenseForm.vb" />
+    <Compile Include="vscan\map.vb" />
+    <Compile Include="vscan\player.vb" />
+    <Compile Include="vscan\SystemInfoForm.vb" />
+    <Compile Include="vscan\Vscaner.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="vscan\License.lic" />
+    <EmbeddedResource Include="vscan\LicenseForm.resources" />
+    <EmbeddedResource Include="vscan\map.resources" />
+    <EmbeddedResource Include="vscan\player.resources" />
+    <EmbeddedResource Include="vscan\Resources.resources" />
+    <EmbeddedResource Include="vscan\SystemInfoForm.resources" />
+    <EmbeddedResource Include="vscan\Vscaner.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
